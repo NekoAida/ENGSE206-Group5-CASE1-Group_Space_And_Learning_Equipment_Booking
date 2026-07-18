@@ -1,46 +1,51 @@
 # 03 — Interview Guide and Rehearsal Revision
 
-> Team: [Team XX] | Case: [ID — Title] | Target role: [Role]
+> Team: Group 5 | Case: 01 — Group Space And Learning Equipment Booking System | Target role: เจ้าหน้าที่ดูแล (Staff / Admin)
 
 ## 1. Opening and Consent Script
 
-[Learning purpose, estimated time, simulation boundary, note-taking, no personal data, right not to answer]
+สวัสดีครับ พวกเราเป็นนักศึกษาจากรายวิชา ENGSE206 กำลังรวบรวมข้อมูลเพื่อพัฒนาระบบจองพื้นที่ทำงานกลุ่มและอุปกรณ์การเรียนรู้ การสัมภาษณ์นี้ใช้เวลาประมาณ 15-20 นาที ข้อมูลทั้งหมดจะถูกนำไปใช้เพื่อการเรียนรู้และออกแบบระบบเท่านั้น จะไม่มีการเปิดเผยข้อมูลส่วนบุคคลหรือข้อมูลที่เป็นความลับ ท่านสามารถปฏิเสธที่จะตอบคำถามหรือยุติการสัมภาษณ์ได้ตลอดเวลา
 
 ## 2. Interview Questions
 
 | Q ID | EO ID | Main / Follow-up Question | Type | Why / Expected Evidence |
 |---|---|---|---|---|
-| Q-01 | EO-01 | | Open / Probe / Exception / Contrast / Assumption check / Confirm | |
+| Q-01 | EO-01 | ปัจจุบันมีการจำกัดจำนวนวันในการจองล่วงหน้าหรือไม่ และในระบบใหม่ควรให้จองล่วงหน้าได้สูงสุดกี่วัน เพราะเหตุใด | Open / Probe | เพื่อหาข้อกำหนดเรื่องเวลาการจองล่วงหน้าที่เหมาะสมกับผู้ดูแล (จาก OQ-01) |
+| Q-02 | EO-01 | ปกติแล้วนักศึกษาใช้งานห้องหรืออุปกรณ์แต่ละครั้งนานเท่าใด ควรจำกัดจำนวนชั่วโมงสูงสุดต่อการจองหรือไม่ | Confirm / Probe | เพื่อป้องกันการผูกขาดการใช้งานและให้คนอื่นได้ใช้ด้วย (จาก OQ-01) |
+| Q-03 | EO-02 | ในกรณีที่นักศึกษาจองไว้แต่ไม่มาใช้งาน (No-show) ปกติเจ้าหน้าที่มีวิธีจัดการอย่างไร และควรให้ระบบยกเลิกอัตโนมัติหลังจากผ่านไปกี่นาที | Open / Probe | เพื่อกำหนดเงื่อนไขการยกเลิกการจองแบบอัตโนมัติ (จาก OQ-02) |
+| Q-04 | EO-02 | การบันทึกคะแนนความประพฤติหรือระงับสิทธิ์ชั่วคราวสำหรับผู้ที่คืนอุปกรณ์ช้า ควรมีเงื่อนไขหรือระดับบทลงโทษอย่างไร | Open / Rule | เพื่อนำไปออกแบบกลไกการระงับสิทธิ์ในระบบแทนการปรับเงิน |
 
 ### Coverage Check
 
-- [ ] role/context
-- [ ] current work / critical incident
-- [ ] pain/impact
-- [ ] rule/authority/data
-- [ ] exception/negative case
-- [ ] outcome/priority/trade-off
-- [ ] paraphrase/closing validation
+- [x] role/context
+- [x] current work / critical incident
+- [x] pain/impact
+- [x] rule/authority/data
+- [x] exception/negative case
+- [x] outcome/priority/trade-off
+- [x] paraphrase/closing validation
 
 ## 3. Bias and Privacy Check
 
 | Q ID | Issue: leading/solution/double/vague/privacy | Neutral revision | Rationale |
 |---|---|---|---|
-| | | | |
+| Q-01 | Vague | ท่านคิดว่าระยะเวลาที่เหมาะสมในการอนุญาตให้นักศึกษาจองล่วงหน้าคือเท่าใด และควรจำกัดเวลาใช้งานต่อครั้งหรือไม่ | เปลี่ยนคำถามให้เจาะจงที่ความคิดเห็นของเจ้าหน้าที่โดยตรง |
+| Q-03 | Solution | เมื่อนักศึกษาไม่มาตามเวลาที่จอง ท่านคิดว่าระบบควรจัดการกับรายการจองนั้นอย่างไรเพื่อให้เกิดประโยชน์สูงสุดกับผู้อื่น | ไม่ชี้แนะว่าต้อง "ยกเลิกอัตโนมัติ" เพื่อให้ได้คำตอบจากประสบการณ์จริง |
 
 ## 4. AI Interview Rehearsal
 
-- Role/prompt used:
-- Session/evidence path:
-- Simulation limitation:
+- Role/prompt used: "สวมบทบาทเป็นเจ้าหน้าที่ดูแลระบบจองห้องและอุปกรณ์การเรียนรู้ (Media Officer) ตอบคำถามสัมภาษณ์เพื่อพัฒนาระบบจองผ่านเว็บไซต์ โดยอ้างอิงจากปัญหาปัจจุบันคือ มีการจองซ้ำซ้อน และห้องว่างแต่ไม่มีคนมาใช้งานจริง เนื่องจากทรัพยากรมีจำกัด"
+- Session/evidence path: จำลองการสัมภาษณ์ผ่าน AI
+- Simulation limitation: AI อาจให้คำตอบที่เป็นอุดมคติเกินไปและไม่ได้สะท้อนข้อจำกัดเชิงกายภาพและพฤติกรรมจริงในสถานที่จริง
 
 | Q ID | What happened | Useful probe / problem | Revised question |
 |---|---|---|---|
-| | | | |
+| Q-01 | AI ตอบว่าควรจองล่วงหน้าได้ไม่เกิน 7 วัน และจำกัด 2-3 ชม./กลุ่ม เพื่อลดการผูกขาด | AI ตอบกว้างไป ควรเจาะจงว่าถ้าไม่มีคนรอคิว สามารถขยายเวลาในระบบได้หรือไม่ | ปัจจุบันมีการจำกัดจำนวนวันในการจองล่วงหน้าหรือไม่ ในระบบใหม่ควรให้จองล่วงหน้าได้สูงสุดกี่วัน และหากไม่มีคิวจองต่อควรอนุญาตให้ต่อเวลาได้หรือไม่? |
+| Q-03 | AI เสนอว่าถ้านักศึกษาไม่มาภายใน 15 นาที ให้ระบบยกเลิกอัตโนมัติทันที | ไม่ได้คำนึงถึงกรณีนิสิตมาสายเพราะเหตุสุดวิสัย | ในกรณีที่นักศึกษาจองไว้แต่ไม่มาเช็กอินภายในเวลาที่กำหนด (เช่น 15 นาที) ระบบควรยกเลิกอัตโนมัติหรือไม่ และควรมีช่องทางผ่อนผันหากมาสายจากเหตุสุดวิสัยอย่างไร? |
 
 ## 5. Ready for Week 04
 
-- Questions retained:
-- Questions removed/revised:
-- Information the simulated role did not know:
-- Open issues / verification needed:
+- Questions retained: Q-02, Q-04
+- Questions removed/revised: Q-01 (ปรับเพิ่มประเด็นการต่อเวลา), Q-03 (ปรับเพิ่มประเด็นการผ่อนผันกรณีสาย)
+- Information the simulated role did not know: นโยบายและกฎระเบียบที่แน่ชัดของทางคณะหรือมหาวิทยาลัยเกี่ยวกับการลงโทษด้วยการระงับสิทธิ์ (ต้องสอบถามเจ้าหน้าที่ตัวจริง)
+- Open issues / verification needed: ระยะเวลาที่แน่นอนในการตั้ง Auto-cancel (เช่น 15 หรือ 30 นาที) และความเห็นชอบในระดับนโยบายเกี่ยวกับการลงโทษผู้ใช้งาน
