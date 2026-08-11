@@ -16,10 +16,10 @@
 
 ## Checklist
 
-- [ ] แปลง user needs เป็น FR/NFR ที่ชัดเจน
-- [ ] กำหนด priority ด้วยวิธีที่ตกลง
-- [ ] ระบุ acceptance measure และ source/rationale
-- [ ] ตรวจ scope ไม่ขยายเกิน case card
+- [x] แปลง user needs เป็น FR/NFR ที่ชัดเจน
+- [x] กำหนด priority ด้วยวิธีที่ตกลง
+- [x] ระบุ acceptance measure และ source/rationale
+- [x] ตรวจ scope ไม่ขยายเกิน case card
 
 ## หลักฐานที่ควรมี
 
