@@ -7,7 +7,7 @@
 
 เลือกใช้วิธีหนึ่ง เช่น MoSCoW, Value vs Effort, Kano หรือวิธีที่อาจารย์กำหนด
 
-- วิธีที่ใช้: [กรอก]
+- วิธีที่ใช้: [MoSCow]
 - หลักเกณฑ์: [กรอก]
 
 ## 2. Functional Requirements
