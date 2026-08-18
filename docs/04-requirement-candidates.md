@@ -30,17 +30,17 @@ Candidate ที่ดีใน Week 04 ต้องมี actor/system behavior
 
 ## 3. Coverage and traceability matrix
 
-| Week 02 source | Week 03 objective/questions | Week 04 evidence/negotiation | Candidate |
+| Week 01–02 source | Week 03 objective/questions | Week 04 evidence/negotiation | Candidate |
 |---|---|---|---|
-| F-01, OQ-01 | EO-01; Q-01–Q-03 | E-01, E-02 | **RC-01** |
-| F-02, OQ-01 | EO-01; Q-01–Q-03 | E-03, C-01 | **RC-02** |
-| OQ-01 | EO-01; Q-01 | E-04, C-01 | **RC-03** |
-| F-03, OQ-02 | EO-02; Q-04–Q-06 | E-05 | **RC-04** |
-| OQ-03 | EO-03; Q-07–Q-08 | E-06, C-02, C-03 | **RC-05** |
-| F-04, OQ-03 | EO-03; Q-08 | E-07, C-04 | **RC-06** |
-| F-05, OQ-04 | EO-04; Q-09–Q-10 | E-08 | **RC-07** |
-| AS-01 | EO-04; Q-11 | E-09 | **RC-08** |
-| F-06 | EO-04; Q-12 | E-10 | **RC-09** |
+| F-01, PP-01, OQ-01 | EO-01; Q-01, Q-03 | E-01, E-02 | **RC-01** |
+| PP-03, F-02 | EO-02; Q-04 | E-03, C-01 | **RC-02** |
+| PP-02, PP-03 | EO-02; Q-05 | E-04, C-01 | **RC-03** |
+| F-03, OQ-01 | EO-01; Q-01, Q-02 | E-05 | **RC-04** |
+| F-02, OQ-02 | EO-03; Q-06 | E-06, C-02, C-03 | **RC-05** |
+| PP-01, PP-03 | EO-03; Q-07 | E-07, C-04 | **RC-06** |
+| F-01, A-02 | EO-04; Q-08 | E-08 | **RC-07** |
+| PP-03, F-01 | EO-04; Q-09 | E-09 | **RC-08** |
+| F-03, G-03 | EO-04; Q-10 | E-10 | **RC-09** |
 
 ---
 

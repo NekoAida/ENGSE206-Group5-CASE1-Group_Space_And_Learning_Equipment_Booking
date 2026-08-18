@@ -1,37 +1,43 @@
-# 15 — Individual Reflection
+# 15 — Individual Reflection (Week 05 Requirement Baseline Review)
 
-> ให้สมาชิกแต่ละคนคัดลอก template นี้เป็นไฟล์ของตนเอง เช่น `15-individual-reflection-student-id.md`
+---
 
-## Student Information
+## 1. Reflection — วรสิทธิ์ บุญยปรีดี
 
 | Field | Detail |
 |---|---|
-| Student ID | [กรอก] |
-| Name | [กรอก] |
-| Primary Role(s) | [กรอก] |
+| Student ID | 68543210017-8 |
+| Name | วรสิทธิ์ บุญยปรีดี |
+| Primary Role(s) | Facilitator / Traceability Auditor |
 
-## 1. My Contribution
+### คำถามสะท้อนการเรียนรู้ (3–4 บรรทัดต่อข้อ)
 
-อธิบายสิ่งที่ทำจริง พร้อมอ้างอิง file/commit/evidence
+1. **วันนี้ฉันเข้าใจอะไรชัดขึ้นเกี่ยวกับ requirement ของทีม?**
+   เข้าใจความสำคัญของการทำ Traceability ที่ต้องลากสายเชื่อมโยงตั้งแต่ Problem/Pain Point ใน Week 01 ไปถึง Evidence และกลายมาเป็น Requirement Backlog ได้จริง ไม่ใช่แค่การตั้งข้อกำหนดขึ้นมาเองตามความรู้สึก นอกจากนี้ยังเข้าใจการเขียน FR/NFR ที่เป็น Atomic และมีตัวเลขชี้วัดความเร็ว/เวลาที่ตรวจรับได้จริง เช่น ระบุเวลาการตอบสนองภายใน 3 วินาที
 
-[กรอก]
+2. **จุดที่ทีมเรายังอ่อนที่สุดคืออะไร และจะทำอย่างไรต่อ?**
+   จุดอ่อนเดิมคือการตั้งรหัสอ้างอิงและระดับความสำคัญ MoSCoW ที่ยังไม่ตรงกันข้ามเอกสาร รวมถึงการใช้คำกำกวมอย่าง "Real-time" โดยไม่มีตัวเลขกำกับ การแก้ไขในกิจกรรมนี้ทำให้ทีมซิงก์ข้อมูลตรงกัน 100% และในสัปดาห์หน้าจะเพิ่มความระมัดระวังในการอัปเดตเอกสารแบบ Cross-check ทุกครั้งก่อน commit
 
-## 2. What I Learned About Requirements and Design
+3. **คำถามที่อยากถามอาจารย์ในคาบหน้า (Week 6) คือ...**
+   ในขั้นตอนการแปลง Requirement เป็น User Story และ Use Case ใน Week 06 หากมี Requirement ในกลุ่ม Should เช่น BR-01 (Auto-approve อุปกรณ์) เราควรเริ่มเขียน Use Case Flow ควบคู่ไปกับกลุ่ม Must ทันที หรือควรโฟกัสเฉพาะกลุ่ม Must ให้เสร็จสิ้นก่อนครับ?
 
-[กรอก]
+---
 
-## 3. A Decision I Influenced
+## 2. Reflection — ปริษฎา สุทธดุก
 
-[กรอก]
+| Field | Detail |
+|---|---|
+| Student ID | 68543210015-2 |
+| Name | ปริษฎา สุทธดุก |
+| Primary Role(s) | Scribe / Quality Checker / Timekeeper |
 
-## 4. Feedback I Received and How I Responded
+### คำถามสะท้อนการเรียนรู้ (3–4 บรรทัดต่อข้อ)
 
-[กรอก]
+1. **วันนี้ฉันเข้าใจอะไรชัดขึ้นเกี่ยวกับ requirement ของทีม?**
+   เข้าใจกระบวนการตรวจสอบคุณภาพเอกสารผ่าน Artefact Health Check และ Peer Cross-Review อย่างเป็นระบบ ทำให้เห็นว่าก่อนจะนำ Requirement ไปออกแบบสถาปัตยกรรมหรือทำ Model ข้อมูลใน Backlog จะต้องนิ่งและปราศจากข้อขัดแย้งเชิงตรรกะ และเข้าใจการแยกสิ่งที่เป็น Unresolved/Policy ออกไปไว้ใน Open Questions ชัดเจน
 
-## 5. What I Would Improve Next Time
+2. **จุดที่ทีมเรายังอ่อนที่สุดคืออะไร และจะทำอย่างไรต่อ?**
+   การจัดการประเด็นเชิงนโยบาย (Policy) เช่น มาตรการ No-show และการระงับสิทธิ์ ที่ทีมเคยเผลอใส่บทลงโทษโดยยังไม่มีเอกสารระเบียบรองรับ ทีมได้ปรับให้เป็นสถานะ Hold และจัดทำเป็น Open Questions เพื่อรอสอบถามผู้มีอำนาจตัดสินใจจริงในลำดับถัดไป
 
-[กรอก]
-
-## 6. Evidence Links
-
-- [commit/file/evidence link]
+3. **คำถามที่อยากถามอาจารย์ในคาบหน้า (Week 6) คือ...**
+   สำหรับ NFR-01 ด้านความปลอดภัยและการบันทึก Audit Log ในการทำ Requirement Model ของ Week 06 ควรแสดงออกมาในรูปแบบใด เช่น Sequence Diagram, Quality Scenario หรือ Use Case Description เพื่อให้ครอบคลุมและตรวจรับได้ดีที่สุดคะ?
