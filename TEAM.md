@@ -6,12 +6,12 @@
 
 | รายการ | รายละเอียด |
 |---|---|
-| กลุ่ม | Group XX |
-| ชื่อโครงงาน | [ชื่อระบบภาษาไทย] / [English Project Name] |
-| Case Card | [หมายเลขและชื่อ Case Card ที่อาจารย์มอบหมาย] |
-| Repository URL | [วาง URL GitHub] |
-| ช่องทางสื่อสารหลัก | [เช่น LINE / Discord / Microsoft Teams] |
-| วันประชุมประจำ | [วัน/เวลา] |
+| กลุ่ม | Group 5 |
+| ชื่อโครงงาน | เว็บไซต์จองพื้นที่ทำงานกลุ่มและอุปกรณ์การเรียนรู้ / Group Space and Learning Equipment Booking Website |
+| Case Card | Case No. 01 — เว็บไซต์จองพื้นที่ทำงานกลุ่มและอุปกรณ์การเรียนรู้ (Group Space and Learning Equipment Booking) |
+| Repository URL | https://github.com/NekoAida/ENGSE206-Group5-CASE1-Group_Space_And_Learning_Equipment_Booking |
+| ช่องทางสื่อสารหลัก | LINE Group / Discord |
+| วันประชุมประจำ | ทุกวันอังคาร 13:00 – 16:00 น. |
 
 ## สมาชิกและบทบาท
 
@@ -19,10 +19,8 @@
 
 | รหัสนักศึกษา | ชื่อ-นามสกุล | บทบาทหลัก | รับผิดชอบเริ่มต้น | หลักฐานการทำงานที่คาดหวัง |
 |---|---|---|---|---|
-| [ID] | [ชื่อ] | Team Coordinator | ประสานงาน/ติดตามความคืบหน้า | meeting notes, worklog |
-| [ID] | [ชื่อ] | Requirements Lead | elicitation / backlog / SRS | requirement docs |
-| [ID] | [ชื่อ] | Design Lead | diagrams / architecture / detailed design | design docs, diagrams |
-| [ID] | [ชื่อ] | UX & Evidence Lead | prototype / usability / evidence | evidence, prototype |
+| 68543210017-8 | วรสิทธิ์ บุญยปรีดี | Requirements Lead & Facilitator | Elicitation / Backlog / Traceability | requirement docs, decision-log, worklog |
+| 68543210015-2 | ปริษฎา สุทธดุก | Quality Checker, Scribe & Timekeeper | Quality Review / Evidence / Health Check | evidence, feedback, reflection, worklog |
 
 ## กติกาทีม
 

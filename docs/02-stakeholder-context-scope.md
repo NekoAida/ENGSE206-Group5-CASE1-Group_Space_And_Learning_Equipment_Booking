@@ -12,7 +12,7 @@
 | **อาจารย์ / ผู้ดูแลห้อง** | Key Stakeholder | ดำเนินการขอสงวนห้องแบบเร่งด่วนสำหรับการเรียนการสอนหรือกิจกรรมพิเศษ และติดตามผลการอนุมัติสงวนห้อง | ปานกลาง - สูง | Interview, Feedback Form |
 | **ผู้ดูแลระบบ (System Admin)** | Administrator | จัดการกำหนดสิทธิ์ผู้ใช้งาน (Roles & Permissions) และตรวจสอบบันทึกประวัติการใช้งาน (System Logs) เพื่อความปลอดภัยและเสถียรภาพ | ปานกลาง | Technical Requirement Workshop |
 
-![Stakeholder Map](../diagrams/context/Stakeholder_Map.drawio.png)
+![Stakeholder Map](../diagrams/context/Group_Space_And_Learning_Equipment_Booking_Stakeholder_Map.drawio.png)
 
 ## 2. System Context
 
@@ -45,8 +45,8 @@
 
 | ID | Constraint / Rule | Source | Impact |
 |---|---|---|---|
-| BR-01 | ใช้โจทย์เดิมตลอด Week 1–16 ห้ามเปลี่ยนแกนของ Case Project เอง | CASE_CARD.md | หากต้องการเปลี่ยนหรือเพิ่ม scope ให้ทำ Change Request |
-| BR-02 | การจองอุปกรณ์การเรียนรู้จะต้องมารับและคืนที่เคาน์เตอร์ในช่วงเวลาทำการเท่านั้น | 01-problem-brief (A-02) | ระบบต้องแสดงและตรวจสอบเวลาทำการสำหรับการรับ-คืน |
+| CT-01 | ใช้โจทย์เดิมตลอด Week 1–16 ห้ามเปลี่ยนแกนของ Case Project เอง | CASE_CARD.md | หากต้องการเปลี่ยนหรือเพิ่ม scope ให้ทำ Change Request |
+| CT-02 | การจองอุปกรณ์การเรียนรู้จะต้องมารับและคืนที่เคาน์เตอร์ในช่วงเวลาทำการเท่านั้น | 01-problem-brief (A-02) | ระบบต้องแสดงและตรวจสอบเวลาทำการสำหรับการรับ-คืน |
 
 ## 5. Ethics, Privacy and Accessibility Considerations
 

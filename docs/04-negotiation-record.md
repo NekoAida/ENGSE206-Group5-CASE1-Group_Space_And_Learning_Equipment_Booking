@@ -1,88 +1,121 @@
 # Week 04 — Conflict and Negotiation Record
 
+> **Team:** Group 5 — Group Space And Learning Equipment Booking System  
+> **Case:** Case No. 1 — เว็บไซต์จองพื้นที่ทำงานกลุ่มและอุปกรณ์การเรียนรู้  
+> **Version:** v1.0 — Negotiation and Decision Record
+
+---
+
 ## 1. Negotiation method
 
 แต่ละประเด็นแยก Position (สิ่งที่แต่ละฝ่ายเรียกร้อง) ออกจาก Interest (เหตุผลหรือผลลัพธ์ที่ต้องการ) ตรวจ authority/constraint แล้วเปรียบเทียบ options ด้วยเกณฑ์ร่วม ได้แก่ usability, operational effort, fairness, traceability, privacy และ feasibility
 
+---
+
 ## 2. Negotiation register
 
-### N-01 — Quick issue reporting vs complete information
+### C-01 — Manual Approval vs Auto-approval for Equipment
 
 | Field | Record |
 |---|---|
-| Evidence | E-04, E-12 |
-| Position A — นักศึกษา / ผู้พบปัญหา / อาจารย์ | ต้องการแจ้งปัญหาได้รวดเร็ว |
-| Interest A | แจ้งได้ทันที ไม่เสียเวลาหาผู้รับผิดชอบ และมีผู้รับเรื่องเร็ว |
-| Position B — เจ้าหน้าที่อาคาร / เจ้าหน้าที่เทคนิค / แม่บ้าน / ผู้ดูแลความปลอดภัย / ผู้ดูแลระบบ | ต้องการข้อมูลครบถ้วนและถูกต้องก่อนรับเรื่อง |
-| Interest B | วิเคราะห์ปัญหาได้ ลดการถามกลับ ลดข้อมูลซ้ำ จัดลำดับความสำคัญได้ และตรวจสอบย้อนหลังได้ |
+| Evidence | E-03, E-04 |
+| Position A — นักศึกษา | ต้องการยืมอุปกรณ์ได้ทันทีหลังส่งคำขอ โดยไม่ต้องรอเจ้าหน้าที่กดอนุมัติ |
+| Interest A | ความรวดเร็วในการใช้งานอุปกรณ์ ไม่ต้องเสียเวลารอนานหน้าเคาน์เตอร์ |
+| Position B — เจ้าหน้าที่ดูแลห้อง/อุปกรณ์ | ต้องการตรวจสอบและควบคุมสต็อกอุปกรณ์ทุกชิ้นเพื่อป้องกันอุปกรณ์สูญหาย |
+| Interest B | ความถูกต้องของจำนวนอุปกรณ์ และลดภาระงานคั่งค้างในระบบ |
 
 | Option | Description | Usability | Operational effort | Traceability/Risk |
 |---|---|---:|---:|---|
-| A | ปฏิเสธคำขอทันทีเมื่อข้อมูลไม่ครบ | Low | Medium | ชัดเจน แต่ผู้ใช้อาจเริ่มใหม่หลายครั้ง |
-| B | รับคำขอเป็น Draft/Incomplete โดยยังไม่กันทรัพยากรจนข้อมูลขั้นต่ำครบ | High | Medium | ต้องแสดงสถานะและรายการที่ขาดชัดเจน |
-| C | กันทรัพยากรทันทีแม้ข้อมูลไม่ครบ | High | High | เสี่ยงกักทรัพยากรและเกิด no-show |
+| A | อนุมัติอัตโนมัติ (Auto-approve) ทุกรายการ ทั้งพื้นที่และอุปกรณ์ | High | Low | เสี่ยงต่อการใช้พื้นที่ผิดวัตถุประสงค์ |
+| B | ต้องรอเจ้าหน้าที่กดอนุมัติ (Manual Approve) ทุกรายการ | Low | High | เกิดคอขวดและงานค้างสะสมของเจ้าหน้าที่ |
+| C | แยกประเภท: พื้นที่ (Space) ต้องรออนุมัติ ส่วนอุปกรณ์ทั่วไปให้ Auto-approve ตามสต็อก | High | Medium | สมดุลระหว่างการคัดกรองและการลดภาระงาน |
 
-**Decision/status:** เลือก Option B เป็น Provisional เพราะตอบสนอง interest ของทั้งสองฝ่ายและมีความสามารถตรวจสอบย้อนหลังได้  
-**Rationale:** E-04 แสดงว่า cost ของคำขอที่ไม่ครบข้อมูลค่อนข้างสูง ในขณะที่ E-12 แสดงความต้องการความรวดเร็ว; การใช้ Draft จึงช่วยแยกการเริ่มคำขอออกจากการยืนยันการจองทรัพยากร  
-**Unresolved:** required fields, ระยะเวลาคงอยู่ของ Draft และผู้มีสิทธิ์แก้ไข  
+**Decision/status:** เลือก Option C เป็น **Decided**  
+**Rationale:** E-03 แสดงว่าการใช้พื้นที่ต้องคัดกรองความเหมาะสม ส่วน E-04 แสดงว่าการยืมอุปกรณ์ทั่วไปเกิดขึ้นบ่อย การแยก Workflow ช่วยให้ผู้ใช้ได้รับความสะดวกรวดเร็วและเจ้าหน้าที่ไม่ทำงานซ้ำซ้อน  
 **Derived candidates:** RC-02, RC-03
 
-### N-02 — Learning schedule/urgent activity vs existing request
+---
+
+### C-02 — No-show Cancellation Timeout (10 min vs 15 min vs 30 min)
 
 | Field | Record |
 |---|---|
-| Evidence | E-07, E-11 |
-| Position A — นักศึกษา | คำขอที่ยืนยันแล้วไม่ควรถูกยกเลิกโดยไม่แจ้งและไม่มีเหตุผล |
-| Interest A | ความคาดการณ์ได้และความเป็นธรรม |
-| Position B — อาจารย์ / เจ้าหน้าที่อาคาร / เจ้าหน้าที่เทคนิค / แม่บ้าน / ผู้ดูแลความปลอดภัย | กิจกรรมการเรียนหรือเหตุจำเป็นอาจต้องใช้ทรัพยากร |
-| Interest B | รักษาภารกิจการเรียนและจัดการกรณีเร่งด่วนหรือ exception ได้ |
-| Authority/constraint | ต้องมีผู้มีสิทธิ์พิจารณาและอนุมัติ exception รวมทั้งต้องมีการเชื่อมต่อกับตารางเวลาและนโยบายที่ชัดเจน; ST-04 ยังไม่กำหนด policy |
+| Evidence | E-06 |
+| Position A — เจ้าหน้าที่ผู้ดูแลห้อง | ต้องการตัดสิทธิ์ทันทีภายใน 10 นาทีหลังจากถึงเวลาจอง |
+| Interest A | ป้องกัน Ghost Booking และคืนห้องให้ผู้ใช้กลุ่มอื่นได้รวดเร็ว |
+| Position B — นักศึกษา | ขอขยายเวลาผ่อนผันเป็น 30 นาที |
+| Interest B | ความยืดหยุ่นกรณีติดภารกิจการเรียนหรือการเดินทางในมหาวิทยาลัย |
 
-| Option | Description | Fairness | Feasibility | Auditability |
+| Option | Description | Fairness | Resource Utilization | Feasibility |
 |---|---|---:|---:|---:|
-| A | First-come-first-served โดยไม่มี exception | Medium | High | High |
-| B | ผู้มีอำนาจส่ง exception request พร้อมเหตุผล ผลกระทบ และการแจ้งผู้ได้รับผล | High | Medium | High |
-| C | Override อัตโนมัติจากตารางเรียน | Low–Medium | Unknown | Medium และเสี่ยงต่อข้อมูลผิด |
+| A | ยกเลิกอัตโนมัติภายใน 10 นาที | Low | High | High |
+| B | ยกเลิกอัตโนมัติภายใน 15 นาที | High | High | High |
+| C | ยกเลิกอัตโนมัติภายใน 30 นาที | High | Low | High |
 
-**Decision/status:** เลือก Option B เป็น Provisional; ไม่เลือก automatic override เพราะ E-11 ยังไม่ยืนยันการเชื่อมต่อกับระบบตารางเรียน  
-**Rationale:** การรักษาสิทธิ์ในการตัดสินใจและ audit trail โดยไม่ยืนยันว่า exception ทุกกรณีได้รับอนุมัติ  
-**Unresolved:** authority matrix, notice period, alternative resource และ appeal mechanism  
-**Derived candidate:** RC-04
+**Decision/status:** เลือก Option B เป็น **Decided**  
+**Rationale:** ระยะเวลา 15 นาทีมีความสมดุลที่สุด ไม่นานเกินไปจนเสียโอกาสการใช้ห้อง และไม่กระชั้นชิดเกินไปสำหรับผู้เดินทาง  
+**Derived candidate:** RC-05
 
-### N-03 — No-show control vs fair treatment
+---
+
+### C-03 — Penalty for Repeated No-shows (Immediate Suspension vs Strike System)
 
 | Field | Record |
 |---|---|
-| Evidence | E-08, E-12, E-13 |
-| Position A — เจ้าหน้าที่อาคาร / เจ้าหน้าที่เทคนิค / แม่บ้าน | ต้องลด no-show เพื่อไม่ให้ทรัพยากรถูกจองแล้วไม่ได้ใช้ |
-| Interest A | เพิ่มการใช้ทรัพยากรและลดภาระงาน |
-| Position B — นักศึกษา | ไม่ควรลงโทษเหมือนกันทุกกรณี โดยเฉพาะกรณีเหตุจำเป็น |
-| Interest B | ความเป็นธรรมและมีโอกาสชี้แจง |
-| Authority/constraint | ยังไม่มี policy source หรือตัวเลขที่ยืนยันจาก E-08 |
+| Evidence | E-06, E-10 |
+| Position A — ผู้จัดการพื้นที่ | ต้องการตัดสิทธิ์การจองทันที 7 วันเมื่อเกิด No-show |
+| Interest A | สร้างวินัยในการใช้งานทรัพยากรส่วนรวมและลดสถิติห้องว่างทิ้ง |
+| Position B — นักศึกษา | ขอให้มีการตักเตือนก่อนระงับสิทธิ์จริง |
+| Interest B | ความเป็นธรรมและป้องกันผลกระทบจากเหตุจำเป็นสุดวิสัย |
 
-| Option | Description | Fairness | Operational effort | Evidence status |
+| Option | Description | Fairness | Operational effort | Compliance |
 |---|---|---:|---:|---|
-| A | ลงโทษอัตโนมัติทุกกรณี no-show | Low | Low | Unsupported |
-| B | บันทึกเหตุการณ์และแจ้งเตือน; ผลลัพธ์ตาม policy จะพิจารณาต่อไป | High | Medium | Supported at candidate level |
-| C | ไม่บันทึกและไม่ดำเนินการ | Medium | Low | ไม่ตอบสนอง operational need |
+| A | ตัดสิทธิ์การจองทันที 7 วันตั้งแต่ครั้งแรก | Low | Low | High |
+| B | เตือนผ่านระบบก่อนครบ 3 ครั้ง แล้วค่อยระงับสิทธิ์ 7 วัน | High | Medium | High |
+| C | ไม่มีการระงับสิทธิ์ ใช้เพียงการตักเตือน | High | Low | Low |
 
-**Decision/status:** ยัง Unresolved ในส่วน penalty/suspension; ยอมรับเพียงแนวทาง Option B ในเรื่องการบันทึกเหตุการณ์และแจ้งสถานะเป็น candidate  
-**Rationale:** E-08 ยืนยันเพียงว่ายังไม่มีนโยบายที่อนุญาตให้ทีมกำหนดบทลงโทษโดยอัตโนมัติ  
-**Unresolved owner:** ผู้ดูแลระบบ / ผู้มีอำนาจกำหนดนโยบาย; ต้องทบทวนใน Week 05 ก่อนการพิจารณา prioritization  
-**Derived candidate:** RC-05 เฉพาะเรื่อง cancellation/status; penalty ไม่สร้างเป็น RC
+**Decision/status:** เลือก Option B เป็น **Decided** (เก็บเงื่อนไขอุทธรณ์เป็น Open Question OQ-03)  
+**Rationale:** ทางเลือก B ช่วยป้องกันกรณีเกิดเหตุสุดวิสัย และเพิ่มความโปร่งใสโดยแสดงสถิติเตือนบนหน้าเว็บผู้ใช้  
+**Derived candidate:** RC-05, OQ-03
+
+---
+
+### C-04 — Notification Channel (Web/Email vs LINE Official)
+
+| Field | Record |
+|---|---|
+| Evidence | E-07 |
+| Position A — นักศึกษา | ต้องการให้แจ้งเตือนผ่าน LINE Official Account / LINE Notify |
+| Interest A | ความสะดวกในการเปิดอ่านข้อความบนมือถือ |
+| Position B — ผู้ดูแลระบบ IT | ให้ใช้การแจ้งเตือนบนหน้าเว็บและส่ง Email บัญชีสถาบัน |
+| Interest B | ควบคุมขอบเขตระบบ ไม่เพิ่มค่าใช้จ่าย และใช้ระบบความปลอดภัยของสถาบัน |
+
+| Option | Description | Usability | Cost/Effort | Scope Alignment |
+|---|---|---:|---:|---|
+| A | แจ้งผ่าน Web Notification + Email สถาบัน | High | Low | In Scope |
+| B | พัฒนาเชื่อมต่อ LINE Official Account API | High | High | Out of Scope |
+
+**Decision/status:** เลือก Option A เป็น **Decided**  
+**Rationale:** ทางเลือก B มีค่าใช้จ่ายและอยู่นอกขอบเขต (Out of Scope) ของโครงการ การแจ้งผ่าน Web + Email บนบัญชีสถาบันมีความเหมาะสมและทำได้จริง  
+**Derived candidate:** RC-06
+
+---
 
 ## 3. Decision summary
 
-| N-ID | Status | Accepted direction | Explicitly not decided | Next owner |
+| Conflict ID | Status | Accepted direction | Explicitly not decided | Next owner |
 |---|---|---|---|---|
-| N-01 | Provisional | Draft/Incomplete โดยไม่กันทรัพยากรจนข้อมูลขั้นต่ำครบ | required fields และ draft lifetime | ST-02 / ST-03 |
-| N-02 | Provisional | exception request พร้อม authority, rationale และการแจ้งผู้ได้รับผลกระทบ | automatic override และ notice period | ST-03 + schedule owner |
-| N-03 | Unresolved | บันทึก event/status ได้ | penalty/suspension/appeal rule | Authorized policy owner |
+| C-01 | Decided | แยก Workflow: พื้นที่ใช้ Manual Approve ส่วนอุปกรณ์ทั่วไปใช้ Auto-approve | รายการประเภทอุปกรณ์เฉพาะทางที่ต้องรออนุมัติ | เจ้าหน้าที่ดูแลห้อง/อุปกรณ์ |
+| C-02 | Decided | Auto-cancel คำขอจองเมื่อ No-show เกิน 15 นาที | การนับเวลาในกรณีวันหยุดหรือช่วงปิดทำการ | ทีมพัฒนา / เจ้าหน้าที่ |
+| C-03 | Decided | ระบบ Strike เตือน 3 ครั้งก่อนระงับสิทธิ์ 7 วัน | ช่องทางการยื่นอุทธรณ์และผู้มีอำนาจปลดล็อกสิทธิ์ (OQ-03) | ผู้จัดการพื้นที่ |
+| C-04 | Decided | ส่งแจ้งเตือนผ่าน Web Notification และ Email สถาบัน | Template ข้อความแจ้งเตือนและการตั้งค่า SMTP | ทีมพัฒนา / IT สถาบัน |
+
+---
 
 ## 4. Quality check
 
 - [x] ทุก conflict มี E-ID และอย่างน้อย 2 options
-- [x] แยก position / interest / authority / constraint
-- [x] ใช้เกณฑ์ร่วมและบันทึก rationale
-- [x] status ไม่ overclaim ว่า Approved
-- [x] สิ่งที่ยังไม่รู้มี owner และไม่ถูกเติมด้วยสมมติฐาน
+- [x] แยก position / interest / authority / constraint ชัดเจน
+- [x] ใช้เกณฑ์ร่วมและบันทึก rationale ตรงกับ Case 01
+- [x] ข้อมูลสอดคล้องกับ `docs/04-evidence-log.md` 100%
+- [x] สิ่งที่ยังไม่รู้มี owner และบันทึกเป็น Open Questions แล้ว

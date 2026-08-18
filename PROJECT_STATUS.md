@@ -20,6 +20,7 @@
 | Elicitation Plan | 3 | 2026-07-25 | [x] | `docs/03-elicitation-plan.md` |
 | Evidence Log | 4 | 2026-08-04 | [x] | `docs/04-evidence-log.md` |
 | Prioritized Backlog | 5 | 2026-08-18 | [x] | `docs/05-requirement-backlog.md` (baseline-v1.0 review) |
+| Requirement Models | 6 | | [ ] | `docs/06-requirement-models.md` |
 | SRS v1 | 7 | | [ ] | |
 | Traceability + Review | 8 | | [ ] | |
 | Architecture | 11 | | [ ] | |
