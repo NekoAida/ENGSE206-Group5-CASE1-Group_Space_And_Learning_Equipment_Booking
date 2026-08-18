@@ -69,8 +69,8 @@
 | Field | Value |
 |---|---|
 | Commit message | `submit(w05): lock requirement baseline v1.0` |
-| Commit hash (ตอน tag) | `0e969f8` |
-| Tag pushed? | [x] `git push origin baseline-v1.0` แล้ว |
+| Commit hash (ตอน tag) | `ae829e1` |
+| Tag pushed? | [x] `git push -f origin baseline-v1.0` แล้ว |
 | ตรวจลิงก์เปิดได้ (Incognito) | [x] เปิดได้ทุกลิงก์ |
 | ลิงก์วางใน Google Sheet (คอลัมน์ RBR) | [x] วางแล้ว และคลิกเปิดได้ |
 
