@@ -6,11 +6,11 @@
 ## 1. Stakeholder Map
 
 | Stakeholder | Category | Needs / Goals | Influence | Engagement Approach |
-|---|---|---|---|---|
-| เจ้าหน้าที่โสตทัศนูปกรณ์ (Media Officer) | External (Administrator) | ต้องการลดขั้นตอนการจดบันทึกด้วยสมุดรายวัน และลดความสับสนของการจองที่ซ้ำซ้อน | สูง | interview, observation |
-| นักศึกษา | Primary User | ต้องการจองพื้นที่และอุปกรณ์ได้สะดวกด้วยตนเองผ่านมือถือ โดยไม่ต้องเสียเวลาเดินไปติดต่อเจ้าหน้าที่โดยตรง | สูง | observation, user story |
-| เจ้าหน้าที่ห้องสมุด (Library Staff) | Secondary User | เป็นผู้ประสานงานหลักในการรับคืนอุปกรณ์ และมักต้องเข้ามาช่วยดูแลความเรียบร้อยของห้อง/อุปกรณ์นอกเหนือเวลาทำการของฝ่ายโสตฯ | ปานกลาง | observation |
-| หัวหน้าฝ่ายวิชาการ/งานเทคโนโลยีสารสนเทศ | External (Approver) | ต้องการหลักฐานการใช้งานเพื่อนำไปปรับปรุงการจัดสรรทรัพยากรในอนาคต | ปานกลาง | indirect |
+| :--- | :--- | :--- | :---: | :--- |
+| **นักศึกษา** | Primary User | ค้นหา ตรวจสอบสถานะ จอง และยกเลิกการใช้งานห้องหรืออุปกรณ์ด้วยตนเอง พร้อมรับการแจ้งเตือน | สูง | User Survey, Observation, Usability Testing |
+| **เจ้าหน้าที่ห้อง** | Secondary User | บันทึกการส่งมอบ-รับคืนอุปกรณ์ อัปเดตสถานะการใช้งาน และติดตามการแจ้งเตือนกรณีส่งคืนล่าช้าผ่าน Dashboard | สูง | Interview, Workflow Observation |
+| **อาจารย์ / ผู้ดูแลห้อง** | Key Stakeholder | ดำเนินการขอสงวนห้องแบบเร่งด่วนสำหรับการเรียนการสอนหรือกิจกรรมพิเศษ และติดตามผลการอนุมัติสงวนห้อง | ปานกลาง - สูง | Interview, Feedback Form |
+| **ผู้ดูแลระบบ (System Admin)** | Administrator | จัดการกำหนดสิทธิ์ผู้ใช้งาน (Roles & Permissions) และตรวจสอบบันทึกประวัติการใช้งาน (System Logs) เพื่อความปลอดภัยและเสถียรภาพ | ปานกลาง | Technical Requirement Workshop |
 
 ![Stakeholder Map](../diagrams/context/Stakeholder_Map.drawio.png)
 
