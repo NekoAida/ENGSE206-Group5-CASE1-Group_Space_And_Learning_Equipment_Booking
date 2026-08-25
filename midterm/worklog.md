@@ -7,8 +7,7 @@
 | สมาชิก | บทบาท (Facilitator / Scribe / Interviewer / Reporter) |
 |---|---|
 | ปริษฎา สุทธดุก | Facilitator / Scribe |
-| | |
-| | |
+| วรสิทธิ์ บุญยปรีดี | Interviewer / reporter |
 
 ## ใครทำอะไรในแต่ละช่วง
 | ช่วง | เวลา | สิ่งที่ทำ | ผู้รับผิดชอบหลัก |
