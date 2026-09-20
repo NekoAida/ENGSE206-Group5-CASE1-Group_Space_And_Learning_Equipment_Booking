@@ -1,0 +1,5 @@
+Reviewer/date,SRS version,Item/position,Finding,Source/evidence,Accept/Reject,Reason,Next action
+ปริษฎา สุทธดุก / 2026-09-19,0.1-draft,Section 3 Detailed FR-01,ควรเพิ่มเงื่อนไข Concurrency Guard และสถานะ QR Code ใน Expected result,CASE_CARD.md และ AC-02,Accept,ช่วยให้ออกแบบหน้าบ้านและระบบจองชัดเจนขึ้น,ปรับแก้ใน Detailed Record FR-01
+วรสิทธิ์ บุญยปรีดี / 2026-09-19,0.1-draft,Section 4 BR-02,เวลาตัดสิทธิ์ No-show ควรระบุเป็น 15 นาทีตามที่คุยใน W04 ไม่ใช่ 30 นาที,E-06 / 04-negotiation-record.md,Accept,ให้สอดคล้องกับข้อตกลงหน้าเคาน์เตอร์,ปรับแก้เวลาเป็น 15 นาที ใน BR-02
+ปริษฎา สุทธดุก / 2026-09-19,0.1-draft,Section 6 Data Requirements,ขาด Entity บันทึกสภาพอุปกรณ์ตอนคืนรายชิ้น,E-08 / FR-05,Accept,ต้องติดตาม Asset ID และความเสียหายแยกชิ้น,เพิ่ม DR-04 EquipmentBorrowRecord
+วรสิทธิ์ บุญยปรีดี / 2026-09-19,0.1-draft,Section 5 NFR-01,Audit Log ต้องระบุชัดว่าห้ามลบหรือแก้ไขแม้แต่ระดับ Admin,05-requirement-backlog.md NFR-01,Accept,ป้องกันการทุจริตและสอดคล้องกับเกณฑ์ความปลอดภัย,ระบุคุณสมบัติ Immutable Append-Only ใน NFR-01

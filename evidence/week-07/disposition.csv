@@ -1,0 +1,10 @@
+Backlog ID,Priority,Admission,Disposition,Coverage,SRS section,Reason/source,OI
+FR-01,Must,Core,Included,Detailed,Section 3 (FR-01),Core space & equipment real-time search and booking (E-01/E-02),-
+FR-02,Must,Core,Included,Detailed,Section 3 (FR-02),Staff review & approve/reject space request workflow (E-03/C-01),-
+FR-03,Could,Supporting,Included,Partial,Section 3 (FR-03),Auto-cancellation for No-show within 15 mins (E-06/C-02),OI-01
+FR-04,Should,Supporting,Included,Partial,Section 3 (FR-04),Web notification and student email alerts (E-07/C-04),OI-02
+FR-05,Must,Core,Included,Detailed,Section 3 (FR-05),Equipment asset ID tracking & condition inspection (E-08),-
+FR-06,Could,Extension,Deferred,Partial,Section 3 (FR-06),Executive dashboard for utilization & no-show statistics (E-10),OI-04
+BR-01,Should,Supporting,Included,Detailed,Section 4 (BR-01),Auto-approve general equipment & 7 days advance booking (E-04/C-01),OI-03
+BR-02,Must,Core,Included,Detailed,Section 4 (BR-02),Quota limit 3 hrs/day & 15 mins grace period before no-show (E-05/E-06),OI-01
+NFR-01,Must,Core,Included,Detailed,Section 5 (NFR-01),Immutable audit log for all status changes & actions (E-09),-

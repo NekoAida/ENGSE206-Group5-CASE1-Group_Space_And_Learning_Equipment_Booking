@@ -1,0 +1,4 @@
+Activity or no AI,Tool/model if used,Input artifact/version,Proposed output,Human verification/decision,Source/evidence
+จัดโครงสร้าง SRS และหัวข้อ 0-12,Antigravity (Gemini),ENGSE206_Week07_Student_SRS_Template_TH.md & docs/05-requirement-backlog.md v1.2,ร่างตารางและเนื้อหาหัวข้อ 0-12 ตามแบบแผนสากล,Accept พร้อมปรับเนื้อหาให้ตรงบริบทของ Case 01 อย่างละเอียด,docs/07-srs-v1.md
+เขียน Deep Specification รายละเอียด FR-01/02/05,Antigravity (Gemini),docs/06-requirement-models.md v1.0,ตาราง Field-Value ครบ Trigger Guard Result Verification,Accept และแก้ไขเงื่อนไข No-show 15 นาที และ Concurrency Guard,docs/07-srs-v1.md Section 3
+จัดทำตาราง Disposition และ Traceability Matrix,Antigravity (Gemini),04-evidence-log.md / 05-requirement-backlog.md / 06-requirement-models.md,ตารางเชื่อมโยงสองทาง W04->W05->W06->SRS->VF,Accept และตรวจเช็ค ID ครบทุกตัว ไม่มีการแปลงความหมายเดิม,evidence/week-07/traceability.csv

@@ -1,0 +1,10 @@
+Source ID/path/version,W05 ID,W06 US IDs,W06 UC ID and level,W06 AC IDs,SRS section,Verification ID/method,Coverage,Gap/OI
+E-01/E-02,FR-01,"US-01, US-02",UC-01 (Detailed),"AC-01, AC-02",Section 3 (FR-01),VF-01 (Demo + Test),Detailed,-
+E-03/C-01,FR-02,US-06,UC-03 (Detailed),AC-06,Section 3 (FR-02),VF-02 (Demonstration),Detailed,-
+E-06/C-02,FR-03,US-04,UC-02 (Detailed),AC-04,Section 3 (FR-03),VF-03 (Automated Test),Partial,OI-01
+E-07/C-04,FR-04,US-06,UC-03 (Detailed),AC-06,Section 3 (FR-04),VF-04 (Inspection),Partial,OI-02
+E-08,FR-05,US-05,UC-03 (Detailed),AC-05,Section 3 (FR-05),VF-05 (Scenario Test),Detailed,-
+E-10,FR-06,US-08,UC-05 (Summary),AC-08,Section 3 (FR-06),VF-06 (Inspection),Partial,OI-04
+E-04/C-01,BR-01,US-01,UC-01 (Detailed),AC-01,Section 4 (BR-01),VF-01 (Scenario Test),Detailed,OI-03
+E-05/E-06,BR-02,"US-02, US-04","UC-01, UC-02","AC-02, AC-04",Section 4 (BR-02),VF-01/VF-03 (Negative Test),Detailed,OI-01
+E-09,NFR-01,US-09,UC-05 (Summary),AC-09,Section 5 (NFR-01),VF-05 (DB Inspection),Detailed,-

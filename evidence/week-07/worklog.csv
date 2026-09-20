@@ -1,0 +1,7 @@
+Member,Date,Activity,Artifact/position,Evidence/path,Review result
+วรสิทธิ์ บุญยปรีดี,2026-09-19,จัดทำโครงร่าง SRS ควบคุม ID และเขียน Deep Spec FR-01/02,docs/07-srs-v1.md (Section 0-3),docs/07-srs-v1.md,Passed Peer Review
+ปริษฎา สุทธดุก,2026-09-19,เขียน Deep Spec FR-05 กฎ BR-01..05 และ NFR-01..05,docs/07-srs-v1.md (Section 4-6),docs/07-srs-v1.md,Passed Peer Review
+วรสิทธิ์ บุญยปรีดี,2026-09-19,จัดทำ Traceability Matrix และ Reconcile W05 Backlog,docs/07-srs-v1.md (Section 7-9 & Appendix A),evidence/week-07/traceability.csv,Passed Peer Review
+ปริษฎา สุทธดุก,2026-09-19,บันทึก Open Issues แผน Verification Plan และ Audit Log review,docs/07-srs-v1.md (Section 10-12),evidence/week-07/open_issues.csv,Passed Peer Review
+วรสิทธิ์ บุญยปรีดี,2026-09-19,ตรวจสอบความครบถ้วนของเอกสารส่งงานและใบส่งงาน W07,submissions/week-07-submission.md,submissions/week-07-submission.md,Ready for Baseline Candidate
+ปริษฎา สุทธดุก,2026-09-19,บันทึก Peer Review Revision และ Exit Ticket,evidence/week-07/,evidence/week-07/peer_review.csv,Ready for Baseline Candidate

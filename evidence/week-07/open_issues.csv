@@ -1,0 +1,5 @@
+OI ID,Question/TBD,Affected IDs,Owner,Next action,Expected evidence,Needed by,Status
+OI-01,มาตรการบทลงโทษกรณี No-show สะสม (กี่ครั้งจะถูกระงับสิทธิ์ชั่วคราวกี่วัน),"FR-03, BR-02",วรสิทธิ์ บุญยปรีดี,นำส่งร่างข้อเสนอบทลงโทษให้ผู้จัดการพื้นที่พิจารณา,บันทึกข้อความอนุมัตินโยบาย No-show Policy,Week 08 (Architecture Design),Open
+OI-02,ข้อกำหนดทางเทคนิคและการเชื่อมต่อ API/SMTP ของระบบ Email สถาบัน,"FR-04, EXT-02",ปริษฎา สุทธดุก,ทำหนังสือขอข้อมูลสเปก API และ Credential จากสำนักวิทยบริการ,สเปกเอกสาร API และ Test Account,Week 08 (Architecture Design),Open
+OI-03,รายการอุปกรณ์ที่เข้าข่าย Auto-approve เทียบกับที่ต้องรอ Staff พิจารณา,"BR-01, FR-01",วรสิทธิ์ บุญยปรีดี,ประชุมร่วมกับเจ้าหน้าที่ประจำห้องเพื่อแยกหมวดหมู่อุปกรณ์,ตาราง Equipment Classification Matrix,Week 08 (System Design),Open
+OI-04,ตัวชี้วัดเชิงสถิติ (KPIs) ที่ผู้บริหารต้องการดูบนหน้า Dashboard ในเฟสแรก,FR-06,ปริษฎา สุทธดุก,สัมภาษณ์อาจารย์ผู้ดูแลพื้นที่เพื่อสรุป 3 กราฟหลักที่ต้องแสดงผล,ร่าง Dashboard Mockup พร้อมสูตรคำนวณ,Week 10 (Midterm Progress),Open
