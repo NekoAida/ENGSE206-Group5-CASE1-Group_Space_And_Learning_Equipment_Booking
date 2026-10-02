@@ -16,16 +16,16 @@
 
 ## Checklist
 
-- [ ] ออกแบบ architecture view ระดับแนวคิด
-- [ ] ระบุ components/responsibilities และ dependencies
-- [ ] เชื่อม architecture กับ quality attributes
-- [ ] export diagram ใน diagrams/architecture/
+- [x] ออกแบบ architecture view ระดับแนวคิด (Context C4 L1 + Container C4 L2 — 2026-10-02)
+- [x] ระบุ components/responsibilities และ dependencies (ตาราง container 4 ตัว + EXT-01/02)
+- [x] เชื่อม architecture กับ quality attributes (NFR-01–05 → container + Decision Cards DEC-01–03)
+- [x] export diagram ใน diagrams/architecture/ (`.drawio` + `.png` ครบ 2 รูป)
 
 ## หลักฐานที่ควรมี
 
-- [ ] commit history ที่เห็นการมีส่วนร่วมของสมาชิก
-- [ ] worklog อัปเดตใน `project-management/team-worklog.md`
-- [ ] evidence/meeting note เมื่อกิจกรรมมีการเก็บข้อมูลหรือ review
+- [ ] commit history ที่เห็นการมีส่วนร่วมของสมาชิก *(รอ push — ใช้ commit message `submit(w11): conceptual architecture`)*
+- [x] worklog อัปเดตใน `project-management/team-worklog.md`
+- [x] evidence/meeting note เมื่อกิจกรรมมีการเก็บข้อมูลหรือ review (`evidence/week-11/README.md` — Miro before/after รอเพิ่มหลังคาบ)
 
 ## Commit Message ตัวอย่าง
 

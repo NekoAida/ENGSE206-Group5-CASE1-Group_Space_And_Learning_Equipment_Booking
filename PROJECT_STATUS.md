@@ -7,7 +7,7 @@
 | Problem & Scope | วรสิทธิ์ บุญยปรีดี, ปริษฎา สุทธดุก | Done | - | ไม่มี |
 | Elicitation & Evidence | วรสิทธิ์ บุญยปรีดี, ปริษฎา สุทธดุก | Done | - | ไม่มี |
 | Requirements & SRS | วรสิทธิ์ บุญยปรีดี, ปริษฎา สุทธดุก | In progress (Baseline v1.0 Locked) | Requirement Modeling (Week 06) | รอ Policy No-show จากคณะ |
-| Architecture & Design | วรสิทธิ์ บุญยปรีดี | Not started | Architecture Design (Week 11) | - |
+| Architecture & Design | วรสิทธิ์ บุญยปรีดี | In progress (Conceptual Architecture v0.1 Proposed) | UX/UI Prototype (Week 12) | รอ Miro review ในคาบ W11 · DD-01–DD-06 เปิดอยู่ |
 | UX/UI & Evaluation | ปริษฎา สุทธดุก | Not started | Prototype (Week 12) | - |
 | Final Presentation | วรสิทธิ์ บุญยปรีดี, ปริษฎา สุทธดุก | Not started | Final Package (Week 16) | - |
 
@@ -21,9 +21,9 @@
 | Evidence Log | 4 | 2026-08-04 | [x] | `docs/04-evidence-log.md` |
 | Prioritized Backlog | 5 | 2026-08-18 | [x] | `docs/05-requirement-backlog.md` (baseline-v1.0 review) |
 | Requirement Models | 6 | | [ ] | `docs/06-requirement-models.md` |
-| SRS v1 | 7 | | [ ] | |
+| SRS v1 | 7 | 2026-09 (แปลง Word 2026-10-02) | [x] | `docs/07-srs-v1.md` + `docs/07-srs-v1.docx` |
 | Traceability + Review | 8 | | [ ] | |
-| Architecture | 11 | | [ ] | |
+| Architecture | 11 | 2026-10-02 | [x] | `design/11-conceptual-architecture-v0.1.docx` · `diagrams/architecture/` |
 | Prototype | 12 | | [ ] | |
 | Detailed Design | 13 | | [ ] | |
 | Design Review | 14 | | [ ] | |
