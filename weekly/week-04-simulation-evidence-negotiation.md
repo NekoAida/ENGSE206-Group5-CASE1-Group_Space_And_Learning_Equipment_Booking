@@ -2,7 +2,7 @@
 
 ## READ
 
-- Course instruction: `engse206-lab-v2/weeks/week-04-stakeholder-simulation-negotiation/README.md`
+- Course instruction: `engse206-lab/weeks/week-04-stakeholder-simulation-negotiation/README.md`
 - Assignment: `W04-v2.0`
 - Assigned Role Pack, Prompt Pack and Rubric from Course Repo
 
@@ -19,7 +19,9 @@
 ## SUBMIT
 
 - [`docs/04-evidence-log.md`](../docs/04-evidence-log.md)
-- `evidence/week-04/ai-stakeholder-simulation-log.md`
+- `evidence/week-04/ai-conversation-excerpt.md` (บังคับ)
+- `docs/04-requirement-candidates.md`
+- `evidence/week-04/ai-stakeholder-simulation-log.md` (ไม่บังคับ)
 - [`submissions/week-04-submission.md`](../submissions/week-04-submission.md)
 - `checkpoint(w04): stakeholder evidence and conflict analysis`
 - `submit(w04): stakeholder evidence negotiation and candidates`

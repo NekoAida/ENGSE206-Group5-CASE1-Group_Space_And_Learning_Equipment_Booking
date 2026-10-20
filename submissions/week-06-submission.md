@@ -5,7 +5,7 @@
 | Field | Value |
 |---|---|
 | Assignment ID | `W06-v1.0` |
-| Course assignment URL | https://github.com/se-rmutl/engse206-lab-v2/blob/main/weeks/week-06-requirement-modeling-negotiation/assignment-contract.md |
+| Course assignment URL | https://github.com/se-rmutl/engse206-lab/blob/main/weeks/week-06-requirement-modeling-negotiation/assignment-contract.md |
 | Course version/commit read | [กรอก] |
 | Date checked | [YYYY-MM-DD] |
 | Case ID / Case URL | [กรอก] |

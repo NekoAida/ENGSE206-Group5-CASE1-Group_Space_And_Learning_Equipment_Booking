@@ -1,8 +1,9 @@
 # Repository Manifest — Updated Two-Repository Model
 
+> Template v2.0 (2026-10-20) — ดู TEMPLATE_CHANGELOG.md
+
 - `.gitattributes`
 - `.github/ISSUE_TEMPLATE/requirement-change.md`
-- `.github/ISSUE_TEMPLATE/weekly-work-item.md`
 - `.github/PULL_REQUEST_TEMPLATE.md`
 - `.gitignore`
 - `CASE_CARD.md`
@@ -16,10 +17,14 @@
 - `README.md`
 - `STUDENT_SUBMISSION_GUIDE.md`
 - `TEAM.md`
+- `TEMPLATE_CHANGELOG.md`
 - `assets/README.md`
 - `assets/images/.gitkeep`
+- `assets/images/two-repository-workflow.png`
 - `assets/prototype-exports/.gitkeep`
+- `design/00-design-spine.md`
 - `design/10-design-strategy.md`
+- `design/11-conceptual-architecture-v0.1.docx`
 - `design/11-conceptual-architecture.md`
 - `design/12-ux-ui-prototype.md`
 - `design/13-detailed-design.md`
@@ -38,6 +43,8 @@
 - `diagrams/erd/README.md`
 - `diagrams/sequence/.gitkeep`
 - `diagrams/sequence/README.md`
+- `diagrams/stakeholders/.gitkeep`
+- `diagrams/stakeholders/README.md`
 - `diagrams/ui-flow/.gitkeep`
 - `diagrams/ui-flow/README.md`
 - `diagrams/use-case/.gitkeep`
@@ -48,6 +55,7 @@
 - `docs/03-elicitation-plan.md`
 - `docs/03-interview-guide.md`
 - `docs/04-evidence-log.md`
+- `docs/04-requirement-candidates.md`
 - `docs/05-requirement-backlog.md`
 - `docs/06-requirement-models.md`
 - `docs/07-srs-v1.md`
@@ -66,10 +74,15 @@
 - `evidence/week-03/question-rehearsal-notes.md`
 - `evidence/week-04/.gitkeep`
 - `evidence/week-04/README.md`
+- `evidence/week-04/ai-conversation-excerpt.md`
 - `evidence/week-04/ai-stakeholder-simulation-log.md`
 - `evidence/week-04/workshop-minutes.md`
 - `evidence/week-05/.gitkeep`
 - `evidence/week-05/README.md`
+- `evidence/week-05/baseline-review/README.md`
+- `evidence/week-05/baseline-review/health-check.md`
+- `evidence/week-05/baseline-review/open-questions.md`
+- `evidence/week-05/baseline-review/peer-cross-review.md`
 - `evidence/week-06/.gitkeep`
 - `evidence/week-06/README.md`
 - `evidence/week-07/.gitkeep`
@@ -95,9 +108,19 @@
 - `feedback/peer-feedback.md`
 - `feedback/week-02-peer-feedback.md`
 - `feedback/week-03-peer-feedback.md`
+- `final-exam/README.md`
+- `final-exam/ai-use-log.md`
+- `final-exam/diagrams/.gitkeep`
+- `final-exam/final-exam-submission.md`
 - `final/README.md`
 - `final/final-project-summary.md`
 - `final/midterm-snapshot/.gitkeep`
+- `final/midterm-snapshot/README.md`
+- `midterm/README.md`
+- `midterm/ai-transcript.md`
+- `midterm/ai-use-log.md`
+- `midterm/twist.md`
+- `midterm/worklog.md`
 - `project-management/README.md`
 - `project-management/ai-use-log.md`
 - `project-management/backlog.md`
@@ -111,8 +134,10 @@
 - `project-management/weekly-status.md`
 - `scripts/.gitkeep`
 - `scripts/check-project-structure.py`
+- `scripts/template-blobs.json`
 - `submissions/.gitkeep`
 - `submissions/README.md`
+- `submissions/baseline-review-submission.md`
 - `submissions/submission-register.md`
 - `submissions/week-01-submission.md`
 - `submissions/week-02-submission.md`

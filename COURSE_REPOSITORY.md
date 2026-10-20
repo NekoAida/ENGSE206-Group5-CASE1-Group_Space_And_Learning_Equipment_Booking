@@ -2,7 +2,7 @@
 
 Team Repo นี้รับคำสั่งงานจาก Course/Lab Repo:
 
-- Course Repo: https://github.com/se-rmutl/engse206-lab-v2
+- Course Repo: https://github.com/se-rmutl/engse206-lab
 - Student Template Repo: https://github.com/se-rmutl/engse206-project-template
 
 ## กรอกข้อมูลกลุ่ม

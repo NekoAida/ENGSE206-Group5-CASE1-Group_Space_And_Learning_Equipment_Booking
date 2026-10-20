@@ -13,7 +13,9 @@
 
 | Artefact | Path/URL | Owner | Status |
 |---|---|---|---|
-| Simulation Log | `evidence/week-04/ai-stakeholder-simulation-log.md` | | |
+| AI Conversation Excerpt | `evidence/week-04/ai-conversation-excerpt.md` | | |
+| Requirement Candidates | `docs/04-requirement-candidates.md` | | |
+| Simulation Log (ไม่บังคับ) | `evidence/week-04/ai-stakeholder-simulation-log.md` | | |
 | Evidence/Conflict/RC | `docs/04-evidence-log.md` | | |
 | Risk/Issue Log | `project-management/risk-and-issue-log.md` | | |
 | Decision Log | `project-management/decision-log.md` | | |
@@ -52,6 +54,6 @@
 
 | Field | Value |
 |---|---|
-| Commit | `submit(w04): stakeholder evidence negotiation and candidates` |
+| Commit | `submit(w04): evidence and requirement candidates` |
 | Commit hash/time | |
 | Known limitations/open questions | |

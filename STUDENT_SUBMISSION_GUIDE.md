@@ -1,55 +1,36 @@
-# คู่มือนักศึกษา: อ่านจาก Course Repo และส่งใน Team Repo ตลอด 15 สัปดาห์
+# คู่มือนักศึกษา: อ่านจาก Course Repo และส่งใน Team Repo
 
 ## 1. Repository ที่ต้องเปิดสองแท็บ
 
-- Course/Lab Repo: [https://github.com/se-rmutl/engse206-lab-v2](https://github.com/se-rmutl/engse206-lab-v2)
-- Team Repo: repository ของกลุ่มที่สร้างจาก [https://github.com/se-rmutl/engse206-project-template](https://github.com/se-rmutl/engse206-project-template)
+- Course/Lab Repo (โจทย์ · contract · rubric · ตัวอย่าง CRBS): https://github.com/se-rmutl/engse206-lab
+- Team Repo: repository ของกลุ่มที่สร้างจาก https://github.com/se-rmutl/engse206-project-template
 
-## 2. ก่อนเริ่ม Week 1
+## 2. ก่อนเริ่ม
 
-1. กด **Use this template** เพื่อสร้าง Team Repo
-2. ตั้งชื่อ `ENGSE206-GroupXX-ProjectName`
-3. เพิ่มสมาชิกทุกคนและอาจารย์ตามที่กำหนด
-4. กรอก `TEAM.md`, `CASE_CARD.md`, `COURSE_REPOSITORY.md`
-5. กรอก Case ID และลิงก์ Case Card จาก Course Repo
-6. เปิด `submissions/submission-register.md`
+1. กด **Use this template** สร้าง Team Repo ชื่อ `ENGSE206-GroupXX-ProjectName`
+2. เพิ่มสมาชิกทุกคนและอาจารย์เป็น collaborator
+3. กรอก `TEAM.md` (ชื่อ + GitHub username — **ไม่ใส่รหัสนักศึกษา**), `CASE_CARD.md`, `COURSE_REPOSITORY.md`
+4. ทุกคน commit ด้วยบัญชีของตัวเอง — commit คือหลักฐานการมีส่วนร่วม
 
-## 3. ขั้นตอนประจำสัปดาห์
+## 3. ทุกสัปดาห์
 
-### A. อ่านโจทย์
-เปิด Week ที่กำลังเรียนใน Course Repo และอ่านให้ครบ: objective, steps, expected output, rubric และ deadline
-
-### B. วางแผนงาน
-สร้าง Issue/Project item ระบุ Week, Owner, Status และ Evidence Path
-
-### C. ทำงานใน Team Repo
-แก้ไฟล์ตาม path ที่ระบุ ห้ามสร้างเอกสารซ้ำโดยไม่จำเป็น
-
-### D. เก็บหลักฐาน
-- ภาพ/บันทึก/diagram export → `evidence/week-XX/`
-- การใช้ AI → `project-management/ai-use-log.md`
-- การประชุม/การตัดสินใจ → `project-management/meeting-minutes/` และ `decision-log.md`
-
-### E. ตรวจและส่ง
-กรอก `submissions/week-XX-submission.md`, commit ด้วยข้อความมาตรฐาน และ push ขึ้น GitHub
+1. อ่าน `assignment-contract.md` ของสัปดาห์ — path และข้อความ commit สรุปไว้ใน [COURSE_ALIGNMENT.md](COURSE_ALIGNMENT.md)
+2. ทำงานใน path ตาม contract · diagram เก็บ `.drawio` + `.png`
+3. ใช้ AI ช่วยได้ แต่บันทึกทุกครั้งใน `project-management/ai-use-log.md`
+4. ใช้ตัวอย่าง CRBS เป็นแบบ — **ห้ามคัดลอกข้อความ**
+5. ตรวจตัวเอง `python3 scripts/check-project-structure.py --week N`
+6. ส่งตาม [submissions/README.md](submissions/README.md): ใบส่งงาน → commit `submit(wNN)` → อัปเดต [submission register](submissions/submission-register.md)
 
 ## 4. Definition of Done
 
-- [ ] อ่านคำสั่งงานฉบับล่าสุดและบันทึก URL/วันที่แล้ว
-- [ ] ไฟล์หลักอยู่ใน path ที่กำหนด
-- [ ] diagram มี source `.drawio` และ export `.png`/`.pdf`
-- [ ] มี evidence และลิงก์ย้อนกลับจากเอกสาร
-- [ ] สมาชิกทุกคนมี worklog/commit หรือบทบาทที่ตรวจสอบได้
-- [ ] มี peer/instructor feedback และระบุสิ่งที่แก้
-- [ ] submission file ระบุ commit hash ฉบับส่ง
-- [ ] push ขึ้น remote แล้วและลิงก์เปิดได้
+- [ ] ไฟล์อยู่ใน path ตาม contract และไม่มี placeholder ค้าง
+- [ ] ทุก requirement อ้าง evidence (E-ID) ได้ · ไม่มีตัวเลขหรือนโยบายที่แต่งขึ้น (ใช้ TBD + Open Issue)
+- [ ] diagram มี `.drawio` ที่เปิดได้จริงและ `.png`
+- [ ] ไม่มี merge conflict ค้าง
+- [ ] worklog และ peer score — แต่ละคนกรอกส่วนของตัวเอง
+- [ ] peer feedback ระบุกลุ่มผู้ตรวจจริง (Case No.)
+- [ ] ใบส่งงานมี commit hash · register อัปเดตแล้ว
 
-## 5. การแก้ไขหลังส่ง
+## 5. แก้หลังส่ง
 
-ห้ามแก้ commit เดิม ให้สร้าง commit ใหม่ เช่น
-
-```text
-fix(w04): revise conflict record after instructor feedback
-```
-
-จากนั้นบันทึกใน submission file ว่าแก้อะไร เพราะอะไร และ commit ใหม่คืออะไร
+ไม่แก้ commit เดิม — สร้าง commit ใหม่ เช่น `fix(w04): revise conflict record after instructor feedback` แล้วใส่ทั้ง commit เดิมและ commit ฉบับแก้ใน register (สถานะ `แก้หลังกำหนด`)

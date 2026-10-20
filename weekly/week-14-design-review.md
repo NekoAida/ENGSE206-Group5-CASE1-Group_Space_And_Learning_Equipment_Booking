@@ -1,8 +1,8 @@
 # Week 14 — Design Review Simulation
 ## Course Assignment Source
 
-- อ่านคำสั่ง: https://github.com/se-rmutl/engse206-lab-v2/blob/main/weeks/week-14-design-review/README.md
-- Assignment Contract: https://github.com/se-rmutl/engse206-lab-v2/blob/main/weeks/week-14-design-review/assignment-contract.md
+- อ่านคำสั่ง: https://github.com/se-rmutl/engse206-lab/blob/main/weeks/week-14-design-review/README.md
+- Assignment Contract: https://github.com/se-rmutl/engse206-lab/blob/main/weeks/week-14-design-review/assignment-contract.md
 - ส่งงานที่: [`submissions/week-14-submission.md`](../submissions/week-14-submission.md)
 - Expected paths: `design/14-design-review.md`, `evidence/week-14/`, `submissions/week-14-submission.md`
 

@@ -2,7 +2,7 @@
 
 ## READ
 
-- Course instruction: `engse206-lab-v2/weeks/week-03-elicitation-interview-design/README.md`
+- Course instruction: `engse206-lab/weeks/week-03-elicitation-interview-design/README.md`
 - Assignment: `W03-v2.0`
 - Prompt Pack and Rubric from Course Repo
 

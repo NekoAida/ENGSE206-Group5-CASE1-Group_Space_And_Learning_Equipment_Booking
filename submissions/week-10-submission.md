@@ -1,57 +1,37 @@
-# Week 10 Submission — Design Strategy and Rationale
-
-## 1. Assignment Source
+# Week 10 Submission — Design Strategy
 
 | Field | Value |
 |---|---|
-| Assignment ID | `W10-v1.0` |
-| Course assignment URL | https://github.com/se-rmutl/engse206-lab-v2/blob/main/weeks/week-10-design-strategy/assignment-contract.md |
-| Course version/commit read | [กรอก] |
-| Date checked | [YYYY-MM-DD] |
-| Case ID / Case URL | [กรอก] |
+| Assignment ID / Version | W10-v1.0 |
+| Assignment URL | |
+| Case ID / URL | |
+| Team | |
+| Submission commit hash | |
 
-## 2. Artefacts Submitted
+## Artefact links
 
-ผลลัพธ์หลัก: **Design Strategy + Rationale**
-
-Expected paths: `design/10-design-strategy.md`, `submissions/week-10-submission.md`
-
-| Artefact | Repository path / URL | Owner | Status |
-|---|---|---|---|
-| | | | |
-
-## 3. Evidence and Quality Check
-
-- [ ] มี source file ที่แก้ไขได้
-- [ ] diagram มี `.drawio` และ export `.png`/`.pdf` เมื่อเกี่ยวข้อง
-- [ ] evidence อ้างอิงกลับไปยัง artefact ได้
-- [ ] อัปเดต worklog และ AI use log แล้ว
-- [ ] peer/instructor feedback ถูกบันทึกแล้ว
-- [ ] ไม่มีข้อมูลส่วนบุคคล/secret
-
-## 4. Team Contribution
-
-| Member | Role / Work completed | Evidence (commit/file) |
+| Artefact | Path | สถานะ |
 |---|---|---|
-| | | |
+| Design Strategy | `design/10-design-strategy.md` | Design Draft |
+| Design Spine | `design/00-design-spine.md` | W10 column filled |
+| Worklog | `project-management/team-worklog.md` | |
+| AI use log (ถ้าใช้) | `project-management/ai-use-log.md` | |
 
-## 5. Tabletop / Review Summary
+## Done checklist
 
-- สิ่งที่นำเสนอ:
-- Feedback ที่ได้รับ:
-- สิ่งที่แก้ก่อนส่ง:
+- [ ] scope table 4 ระดับ ไม่ลบ FR จาก SRS
+- [ ] ทุกแถวมี requirement ID
+- [ ] drivers 3 ข้อ อ้าง ID + ผลต่อการออกแบบ
+- [ ] Spine 5–8 แถว มี actor + UC
+- [ ] open decisions ≤ 5 มีเจ้าของ/ผลกระทบ/ระหว่างรอ ไม่มีค่าที่แต่งขึ้น
+- [ ] สถานะ SRS ตามจริง
 
-## 6. Final Submission Snapshot
+## สิ่งที่ยังไม่แน่ใจ / ต้องการ feedback (1–3 ข้อ)
 
-| Field | Value |
+1.
+
+## การมีส่วนร่วม
+
+| สมาชิก | ทำส่วนใด (ระบุแถว/ข้อ) |
 |---|---|
-| Commit message | `submit(w10): design strategy and rationale` |
-| Commit hash | [กรอกหลัง push] |
-| Submitted at | [YYYY-MM-DD HH:MM] |
-| Known limitations / open questions | [กรอก] |
-
-## 7. Revision after Feedback
-
-| Date | Feedback | Change made | New commit |
-|---|---|---|---|
-| | | | |
+| | |
