@@ -6,10 +6,11 @@
 | ชื่อระบบ | Group Space and Learning Equipment Booking System |
 | CR หลัก / เสริม | CR-FX-01 + CR-FX-02A (Pending; decision เป็น Proposed) |
 | Branch | `final-exam` |
-| PR ที่ต้องใช้ | `submit(final): change-to-design take-home` — URL: TBD ต้องตรวจ/กรอกเมื่อเปิดจริง |
+| Pull Request | [submit(final): change-to-design take-home](https://github.com/NekoAida/ENGSE206-Group5-CASE1-Group_Space_And_Learning_Equipment_Booking/pull/4) · `final-exam` → `main` · Open |
 | กำหนดส่งล่าสุด | 23 ตุลาคม 2569 เวลา 23:59 น. (Asia/Bangkok, UTC+07:00) ตามข้อมูลล่าสุดที่ผู้ส่งงานแจ้ง |
 | T0 ตาม README รายวิชา | 20 ตุลาคม 2569 เวลา 09:00 น.; กำหนดส่งล่าสุดข้างต้นเป็นข้อมูลเพิ่มเติมจากผู้ส่งงาน ไม่อ้างว่าเป็น T0 + 24 ชั่วโมงตาม README |
-| Commit ส่งสุดท้าย | TBD ต้องกรอก hash จริงที่ push ก่อนกำหนด หลัง commit ฉบับแก้; ไม่ใช้ hash ตัวอย่าง |
+| Commit งานคำตอบสุดท้าย | `e0b7b4abe36c9c1bf7ca384a0b5c6015e1e93bf8` — รวม Word, diagrams และข้อมูลรับรอง; commit ถัดมาบันทึก PR/hash ในใบส่งงานเท่านั้น |
+| Commit ล่าสุดของการส่ง | ดู hash ล่าสุดใน [PR commits](https://github.com/NekoAida/ENGSE206-Group5-CASE1-Group_Space_And_Learning_Equipment_Booking/pull/4/commits); hash HEAD หลังบันทึกใบส่งงานระบุในรายละเอียด PR |
 | Snapshot ที่ใช้ทบทวนฐาน | `da4c30ac84a7b1189b3bdedffe84bc3d2ed2a06d` (snapshot ของฐานก่อนแก้คำตอบ) |
 | สถานะ SRS | Baseline Candidate ตามไฟล์เดิม ไม่อ้างอนุมัติ |
 
@@ -49,8 +50,8 @@
 - [x] CR Pending และ decision Proposed; ไม่อ้าง SRS/CR Approved
 - [x] แก้เฉพาะไฟล์ใน `final-exam/`
 - [x] สมาชิกทั้งสองอ่านฉบับแก้และยืนยันตารางการมีส่วนร่วม/AI log ตามจริง ตามการยืนยันของผู้ส่งงาน
-- [ ] commit/push ด้วยบัญชีสมาชิก และกรอก commit ส่งจริงก่อนกำหนด
-- [ ] ตรวจ PR URL/title/base branch และ T0 + 24 ชั่วโมง
+- [x] commit/push ผ่านบัญชี NekoAida และกรอก hash งานคำตอบจริง; ประวัติมี NekoAida และ ThunderXD11 ไม่แก้ชื่อผู้เขียนย้อนหลัง
+- [x] เปิด PR #4 ชื่อถูกต้องจาก `final-exam` เข้า `main` เมื่อ 22 ตุลาคม 2569 ก่อนกำหนดล่าสุด 23 ตุลาคม 2569 เวลา 23:59 น. ตามข้อมูลผู้ส่งงาน; ไม่อ้างว่าส่งทัน T0 + 24 ชั่วโมงตาม README เดิม
 
 ## แหล่งอ้างอิงวิธีส่ง
 
