@@ -1,53 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <mxfile host="app.diagrams.net">
-  <diagram name="C4 Context Diagram (After CR-FX-01 &amp; CR-FX-02A)" id="hd2DCCuwr1Ef6i7BTJa6">
-    <mxGraphModel dx="2115" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Context after CR-FX-01 and CR-FX-02A · Proposed" id="context-after">
+    <mxGraphModel page="1" pageWidth="2200" pageHeight="1120" grid="1">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="ctx-system" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;strokeWidth=2;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ระบบจองพื้นที่ทำงานกลุ่มและอุปกรณ์การเรียนรู้&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Software System · Responsive Web Application (Desktop &amp;amp; Mobile)]&lt;/i&gt;&lt;br&gt;ค้นหาสถานะว่าง · จอง/ยกเลิก (Soft Lock 5 นาที) · สแกน QR Check-in&lt;br&gt;รับ-คืนอุปกรณ์หน้างานผ่าน Mobile Web · Opt-in รับแจ้งเตือน&lt;br&gt;การแจ้งเตือนสถานะเปลี่ยน/เตือนล่วงหน้า 15 นาที / Overdue Alert · Audit Log&lt;br&gt;(SRS §2–§3 · CR-FX-01 &amp;amp; CR-FX-02A)" vertex="1">
-          <mxGeometry height="290" width="460" x="1100" y="330" as="geometry" />
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="a1" parent="1" vertex="1" value="นักศึกษา / บุคลากร&lt;br&gt;[Person · Core]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f3e8;strokeColor=#4e7652;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="45" y="140" width="390" height="125" as="geometry"/>
         </mxCell>
-        <mxCell id="ctx-act01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ACT-01 นักศึกษา / บุคลากร&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core · User / Student]&lt;/i&gt;" vertex="1">
-          <mxGeometry height="110" width="280" x="400" y="100" as="geometry" />
+        <mxCell id="a2" parent="1" vertex="1" value="เจ้าหน้าที่ (Staff)&lt;br&gt;[Person · Core]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f3e8;strokeColor=#4e7652;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="45" y="360" width="390" height="125" as="geometry"/>
         </mxCell>
-        <mxCell id="ctx-act02" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ACT-02 เจ้าหน้าที่ (Staff)&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core · Mobile Staff Counter]&lt;/i&gt;" vertex="1">
-          <mxGeometry height="110" width="280" x="400" y="290" as="geometry" />
+        <mxCell id="a3" parent="1" vertex="1" value="ผู้ดูแลระบบ (Admin)&lt;br&gt;[Person · Core]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f3e8;strokeColor=#4e7652;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="45" y="580" width="390" height="125" as="geometry"/>
         </mxCell>
-        <mxCell id="ctx-act03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ACT-03 ผู้ดูแลระบบ (Admin)&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core]&lt;/i&gt;" vertex="1">
-          <mxGeometry height="110" width="280" x="400" y="480" as="geometry" />
+        <mxCell id="a4" parent="1" vertex="1" value="อาจารย์ / ผู้บริหาร&lt;br&gt;[Person · Core]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f3e8;strokeColor=#4e7652;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="45" y="800" width="390" height="125" as="geometry"/>
         </mxCell>
-        <mxCell id="ctx-act04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ACT-04 อาจารย์ / ผู้บริหาร&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core]&lt;/i&gt;" vertex="1">
-          <mxGeometry height="110" width="280" x="400" y="670" as="geometry" />
+        <mxCell id="sys" parent="1" vertex="1" value="ระบบจองพื้นที่ทำงานกลุ่ม&lt;br&gt;และอุปกรณ์การเรียนรู้&lt;br&gt;[Software System]&lt;br&gt;จอง / อนุมัติ / Check-in / รับ–คืน&lt;br&gt;แจ้งสถานะ / เตือนตามเวลา / opt-in&lt;br&gt;FR-04; FR-FX-01–03; BR-FX-01" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e5effb;strokeColor=#42668c;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="860" y="280" width="550" height="490" as="geometry"/>
         </mxCell>
-        <mxCell id="ctx-ext01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;EXT-01 ระบบยืนยันตัวตนกลางสถาบัน&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core · OAuth2/SSO - AS-01]&lt;/i&gt;&lt;br&gt;รับรองตัวตนนักศึกษาและบุคลากร" vertex="1">
-          <mxGeometry height="130" width="320" x="1900" y="160" as="geometry" />
+        <mxCell id="sso" parent="1" vertex="1" value="EXT-01&lt;br&gt;ระบบยืนยันตัวตนกลางสถาบัน&lt;br&gt;[Core · วิธีเชื่อม TBD]&lt;br&gt;AS-01; DD-01 เดิม" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0d7;strokeColor=#a67c35;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="1790" y="250" width="360" height="190" as="geometry"/>
         </mxCell>
-        <mxCell id="ctx-ext02" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;EXT-02 External Notification Gateway&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Extension · LINE Notify API / Email Provider]&lt;/i&gt;&lt;br&gt;ส่งการแจ้งเตือนเตือนล่วงหน้า 15 นาที / Overdue / สถานะเปลี่ยน (CR-FX-01)" vertex="1">
-          <mxGeometry height="140" width="320" x="1900" y="380" as="geometry" />
+        <mxCell id="ext" parent="1" vertex="1" value="EXT-02&lt;br&gt;ช่องทางแจ้งเตือนภายนอก&lt;br&gt;[Extension / TBD]&lt;br&gt;OI-FX-01; OI-02 เดิม" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0d7;strokeColor=#a67c35;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="1790" y="650" width="360" height="190" as="geometry"/>
         </mxCell>
-        <mxCell id="ctx-ext03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;EXT-03 ระบบอีเมลสถาบัน&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[SMTP Service]&lt;/i&gt;&lt;br&gt;ส่งสลิปยืนยันและประกาศสถาบัน" vertex="1">
-          <mxGeometry height="120" width="320" x="1900" y="600" as="geometry" />
+        <mxCell id="edge0" parent="1" edge="1" source="a1" target="sys" value="จอง / Check-in / opt-in&lt;br&gt;↔ ผลรายการและ in-app" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.496;entryX=0.0;entryY=0.17346938775510204;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="202"/>
+              <mxPoint x="650" y="365"/>
+            </Array>
+            <mxPoint x="-5.0" y="24.0" as="offset"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ctx-edge01" edge="1" parent="1" source="ctx-act01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.18;" target="ctx-system" value="→ ค้นหา · Soft Lock (5 นาที) · Confirm Booking · ตั้งค่า Opt-in (FR-01, FR-02, FR-13)&lt;br&gt;← สถานะ Real-time · Booking QR · ผลบันทึก Opt-in Preferences (FR-01, FR-13)">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge1" parent="1" edge="1" source="a2" target="sys" value="อนุมัติ / QR รับ–คืน ↔ ผลรายการ" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.496;entryX=0.0;entryY=0.2897959183673469;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points"/>
+            <mxPoint x="-2.5" y="-17.0" as="offset"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ctx-edge02" edge="1" parent="1" source="ctx-act02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.42;" target="ctx-system" value="→ สแกน QR รับ-คืนอุปกรณ์ผ่าน Mobile Browser · บันทึกสภาพอุปกรณ์ (FR-05, CR-FX-02A)&lt;br&gt;← คิวคำขอหน้างาน · รายการยืม-คืน บน Mobile Staff Counter (FR-05, CR-FX-02A)">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge2" parent="1" edge="1" source="a3" target="sys" value="ตั้งค่า / สิทธิ์ / Audit&lt;br&gt;↔ ผลตามบทบาท" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.496;entryX=0.0;entryY=0.6122448979591837;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="642"/>
+              <mxPoint x="650" y="580"/>
+            </Array>
+            <mxPoint x="-5.0" y="16.5" as="offset"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ctx-edge03" edge="1" parent="1" source="ctx-act03" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.68;" target="ctx-system" value="→ ตั้งค่า Dynamic System Parameters · จัดการ RBAC (FR-08, FR-12)&lt;br&gt;← ผลการบันทึกกฎ · Audit Log Viewer (FR-10, BR-06)">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge3" parent="1" edge="1" source="a4" target="sys" value="ขอรายงาน ↔ สถิติ&lt;br&gt;FR-06 (Overview เดิม)" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.496;entryX=0.0;entryY=0.8571428571428571;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="862"/>
+              <mxPoint x="650" y="700"/>
+            </Array>
+            <mxPoint x="-5.0" y="36.5" as="offset"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ctx-edge04" edge="1" parent="1" source="ctx-act04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.88;" target="ctx-system" value="→ เรียกดูรายงานสถิติอัตราการจอง/No-Show (FR-09)&lt;br&gt;← Dashboard สถิติสรุปการใช้งานทรัพยากร (FR-09)">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge4" parent="1" edge="1" source="sys" target="sso" value="ขอยืนยันตัวตน ↔ ผล&lt;br&gt;วิธีเชื่อม TBD" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.1326530612244898;entryX=0.0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;dashed=1;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points"/>
+            <mxPoint x="-10.0" y="-30.0" as="offset"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ctx-edge05" edge="1" parent="1" source="ctx-system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.20;entryX=0.0;entryY=0.5;" target="ctx-ext01" value="→ ส่ง OAuth2 Auth Request (AS-01)&lt;br&gt;← รับ User Token + Basic Attributes">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge5" parent="1" edge="1" source="sys" target="ext" value="ข้อความขั้นต่ำ ↔ ผลส่ง&lt;br&gt;เฉพาะ opt-in; วิธีเชื่อม TBD" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.8877551020408163;entryX=0.0;entryY=0.34210526315789475;exitDx=0;exitDy=0;entryDx=0;entryDy=0;dashed=1;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points"/>
+            <mxPoint x="-10.0" y="60.0" as="offset"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ctx-edge06" edge="1" parent="1" source="ctx-system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.50;entryX=0.0;entryY=0.5;" target="ctx-ext02" value="→ ส่ง Notification Dispatch Request (เตือน 15 นาที / Overdue / Status Change) (FR-14, FR-15)&lt;br&gt;← Delivery Result (Success / Retry / Failed Status)">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ctx-edge07" edge="1" parent="1" source="ctx-system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.80;entryX=0.0;entryY=0.5;" target="ctx-ext03" value="→ ส่ง Email System Log &amp; Transaction Confirm&lt;br&gt;← ผลการส่งผ่าน SMTP (Success/Failed Status)">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="notes" parent="1" vertex="1" value="เส้นประ = รายละเอียดเชื่อมต่อยัง TBD; ช่องทางภายนอกจริงเป็น Overview ตาม DD-FX-01&lt;br&gt;ค่าเวลาเตือน = TBD OI-FX-02; ไม่ใช้เกณฑ์ No-show เดิม 15 นาทีเป็นระยะเตือน; actor ตาม SRS §2.2" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Tahoma;fontSize=22;strokeColor=none;fillColor=none;">
+          <mxGeometry x="42" y="1015" width="2116" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
