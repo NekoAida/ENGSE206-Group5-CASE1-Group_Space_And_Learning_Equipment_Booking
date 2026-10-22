@@ -34,9 +34,9 @@
 | ชื่อ–สกุล | รหัส | รับผิดชอบ (G / ข้อ) | หลักฐาน (commit หรือส่วนในไฟล์) |
 |---|---|---|---|
 | วรสิทธิ์ บุญยปรีดี | 68543210017-8 | G1, G2 (Impact Analysis & C4 Container Architecture) | Commit: `a8f3b21` · Section G1, G2 ใน `final-exam-group-answer.docx` |
-| สมาชิกกลุ่มคนที่ 2 | 685432100XX-X | G3 (Design Drivers & Concurrency Control Strategy) | Commit: `b7e2c10` · Section G3 ใน `final-exam-group-answer.docx` |
-| สมาชิกกลุ่มคนที่ 3 | 685432100XX-X | G4 (Sequence Diagram & Component Interactions) | Commit: `c1d2e3f` · Section G4 ใน `final-exam-group-answer.docx` |
-| สมาชิกกลุ่มคนที่ 4 | 685432100XX-X | G5 (Traceability & Open Decisions Verification) | Commit: `d4e5f6a` · Section G5 & `ai-use-log.md` |
+| วรสิทธิ์ บุญยปรีดี | 68543210017-8 | G3 (Design Drivers & Concurrency Control Strategy) | Commit: `b7e2c10` · Section G3 ใน `final-exam-group-answer.docx` |
+| ปริษฎา สุทธดุก | 68543210015-2 | G4 (Sequence Diagram & Component Interactions) | Commit: `c1d2e3f` · Section G4 ใน `final-exam-group-answer.docx` |
+| ปริษฎา สุทธดุก | 68543210015-2 | G5 (Traceability & Open Decisions Verification) | Commit: `d4e5f6a` · Section G5 & `ai-use-log.md` |
 
 ## รับรอง
 
