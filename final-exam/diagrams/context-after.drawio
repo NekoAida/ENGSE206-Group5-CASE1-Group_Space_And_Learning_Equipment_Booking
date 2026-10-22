@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="C4 Context Diagram (After CR-01)" id="hd2DCCuwr1Ef6i7BTJa6">
+    <mxGraphModel dx="2115" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;strokeWidth=2;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ระบบจองพื้นที่ทำงานกลุ่มและอุปกรณ์การเรียนรู้&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Software System · Responsive Web Application]&lt;/i&gt;&lt;br&gt;ค้นหาสถานะว่าง · จอง/ยกเลิก (Soft Lock 5/10 นาที) · อนุมัติ&lt;br&gt;Accessibility Profile Sync · Check-in QR · รับ-คืนอุปกรณ์&lt;br&gt;แจ้งเตือน Dynamic Timeout · Audit Log&lt;br&gt;(SRS §2–§3 · CR-01)" vertex="1">
+          <mxGeometry height="290" width="440" x="1100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ACT-01 นักศึกษา / บุคลากร&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core · รวมผู้ใช้ที่มีข้อจำกัดทางการมองเห็น]&lt;/i&gt;" vertex="1">
+          <mxGeometry height="110" width="280" x="400" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ACT-02 เจ้าหน้าที่ (Staff)&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core]&lt;/i&gt;" vertex="1">
+          <mxGeometry height="110" width="280" x="400" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ACT-03 ผู้ดูแลระบบ (Admin)&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core]&lt;/i&gt;" vertex="1">
+          <mxGeometry height="110" width="280" x="400" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;ACT-04 อาจารย์ / ผู้บริหาร&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core]&lt;/i&gt;" vertex="1">
+          <mxGeometry height="110" width="280" x="400" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;EXT-01 ระบบยืนยันตัวตนกลางสถาบัน&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[Core · OAuth2/SSO]&lt;/i&gt;&lt;br&gt;รับรองตัวตน + Accessibility Profile Flag (CR-01)" vertex="1">
+          <mxGeometry height="140" width="320" x="1900" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;align=center;verticalAlign=middle;fontSize=13;fontColor=#1F2937;" value="&lt;b style=&#39;font-size:15px&#39;&gt;EXT-02 ระบบอีเมลสถาบัน&lt;/b&gt;&lt;br&gt;&lt;i style=&#39;font-size:12.5px&#39;&gt;[SMTP Service]&lt;/i&gt;&lt;br&gt;ส่งการแจ้งเตือนและสิทธิ์ขยายเวลา Soft Lock" vertex="1">
+          <mxGeometry height="140" width="320" x="1900" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-22" edge="1" parent="1" source="xXAOf1EGll1e4_ANMqFC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.20;" target="xXAOf1EGll1e4_ANMqFC-15" value="→ ค้นหา · Soft Lock (5/10 นาที) · ยืนยันการจอง · QR Check-in (FR-01, FR-02, CR-01)&lt;br&gt;← สถานะว่าง Real-time · Dynamic Lock Countdown · Booking QR (FR-01, FR-04)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-23" edge="1" parent="1" source="xXAOf1EGll1e4_ANMqFC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.45;" target="xXAOf1EGll1e4_ANMqFC-15" value="→ อนุมัติ/ปฏิเสธคำขอพิเศษ · บันทึกรับ-คืนอุปกรณ์+สภาพ (FR-05, FR-07)&lt;br&gt;← คิวคำขอ Pending · รายการยืม-คืนอุปกรณ์ (FR-05, FR-07)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-24" edge="1" parent="1" source="xXAOf1EGll1e4_ANMqFC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.70;" target="xXAOf1EGll1e4_ANMqFC-15" value="→ ตั้งค่าเวลา Soft Lock (Default/Accessibility) · จัดการ RBAC (FR-08, FR-12, CR-01)&lt;br&gt;← ผลการบันทึกกฎ · Audit Log การสิทธิ์ขยายเวลา (FR-10, NFR-04)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-25" edge="1" parent="1" source="xXAOf1EGll1e4_ANMqFC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.90;" target="xXAOf1EGll1e4_ANMqFC-15" value="→ เรียกดูรายงานสถิติอัตราการจอง/No-Show (FR-09)&lt;br&gt;← Dashboard สถิติสรุปการใช้งานทรัพยากร (FR-09)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-26" edge="1" parent="1" source="xXAOf1EGll1e4_ANMqFC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.25;entryX=0.0;entryY=0.5;" target="xXAOf1EGll1e4_ANMqFC-20" value="→ ส่ง OAuth2 Auth Request + ขอ Claim สิทธิ์ Accessibility (AS-01, CR-01)&lt;br&gt;← รับ User Token + User Attributes (is_visually_impaired flag)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXAOf1EGll1e4_ANMqFC-27" edge="1" parent="1" source="xXAOf1EGll1e4_ANMqFC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#1F2937;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;labelBackgroundColor=#FFFFFF;exitX=1.0;exitY=0.75;entryX=0.0;entryY=0.5;" target="xXAOf1EGll1e4_ANMqFC-21" value="→ ส่ง Email Job (ยืนยันการจอง / แจ้งเตือนหมดเวลา Soft Lock) (FR-04)&lt;br&gt;← ผลการส่งเมลผ่าน SMTP (Success/Failed Status)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
