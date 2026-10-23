@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Container after CR-FX-01 and CR-FX-02A · Proposed" id="container-after">
+    <mxGraphModel page="1" pageWidth="2200" pageHeight="1450" grid="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="a1" parent="1" vertex="1" value="นักศึกษา / บุคลากร&lt;br&gt;[Person]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f3e8;strokeColor=#4e7652;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="40" y="100" width="390" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="a2" parent="1" vertex="1" value="เจ้าหน้าที่ (Staff)&lt;br&gt;[Person]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f3e8;strokeColor=#4e7652;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="590" y="100" width="360" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="a3" parent="1" vertex="1" value="ผู้ดูแลระบบ (Admin)&lt;br&gt;[Person]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f3e8;strokeColor=#4e7652;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="1110" y="100" width="390" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="a4" parent="1" vertex="1" value="อาจารย์ / ผู้บริหาร&lt;br&gt;[Person]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f3e8;strokeColor=#4e7652;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="1650" y="100" width="500" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="web" parent="1" vertex="1" value="Web Application&lt;br&gt;[Web App · React]&lt;br&gt;จอง / QR รับ–คืน / opt-in / in-app&lt;br&gt;Browser ผู้ใช้; ไม่ยืนยันสำเร็จขณะเน็ตขาด" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e5effb;strokeColor=#42668c;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="550" y="320" width="1000" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="api" parent="1" vertex="1" value="API Application&lt;br&gt;[Server-side API · Node.js + Express]&lt;br&gt;ตรวจสิทธิ์ / BR / state / opt-in / payload / Audit&lt;br&gt;บันทึกงานแจ้งเตือนใน DB; ส่งแยกจากธุรกรรมจอง&lt;br&gt;Server ทีม; กฎสำคัญคงอยู่ที่ API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e5effb;strokeColor=#42668c;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="620" y="680" width="930" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="db" parent="1" vertex="1" value="Database&lt;br&gt;[Relational DB · PostgreSQL]&lt;br&gt;entity เดิม + preference / NotificationJob / ผลส่ง&lt;br&gt;DB server ทีม; API เข้าถึงเท่านั้น" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e5effb;strokeColor=#42668c;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="610" y="1110" width="880" height="155" as="geometry"/>
+        </mxCell>
+        <mxCell id="job" parent="1" vertex="1" value="Scheduled Job —&lt;br&gt;No-show Sweeper&lt;br&gt;[Scheduled Job · Node.js]&lt;br&gt;No-show เดิม + trigger งานเตือน&lt;br&gt;Server ทีม; ไม่ต่อ DB ตรง&lt;br&gt;ความถี่ = DD-03 เดิม (TBD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e5effb;strokeColor=#42668c;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="35" y="660" width="425" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="sso" parent="1" vertex="1" value="EXT-01&lt;br&gt;ระบบยืนยันตัวตนกลางสถาบัน&lt;br&gt;[Core · วิธีเชื่อม TBD]&lt;br&gt;AS-01; DD-01 เดิม" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0d7;strokeColor=#a67c35;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="1700" y="630" width="450" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="ext" parent="1" vertex="1" value="EXT-02&lt;br&gt;ช่องทางแจ้งเตือนภายนอก&lt;br&gt;[Extension / TBD]&lt;br&gt;stub จนยืนยัน OI-FX-01" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0d7;strokeColor=#a67c35;fontFamily=Tahoma;fontSize=24;align=center;verticalAlign=middle;">
+          <mxGeometry x="1700" y="980" width="450" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge0" parent="1" edge="1" source="a1" target="web" value="คำขอ/ผล [HTTPS]" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.17;entryY=0.0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="275"/>
+              <mxPoint x="720" y="275"/>
+            </Array>
+            <mxPoint x="-87.5" y="-20.0" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" parent="1" edge="1" source="a2" target="web" value="QR/ผล&lt;br&gt;[HTTPS]" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.22;entryY=0.0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points"/>
+            <mxPoint x="70.0" y="5.0" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" parent="1" edge="1" source="a3" target="web" value="ตั้งค่า/ผล&lt;br&gt;[HTTPS]" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.755;entryY=0.0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points"/>
+            <mxPoint x="85.0" y="5.0" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" parent="1" edge="1" source="a4" target="web" value="รายงาน/ผล [HTTPS]" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.89;entryY=0.0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900" y="275"/>
+              <mxPoint x="1440" y="275"/>
+            </Array>
+            <mxPoint x="80.0" y="-20.0" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge4" parent="1" edge="1" source="web" target="api" value="คำขอ / ผลรายการ / preference / in-app&lt;br&gt;[HTTPS JSON]" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;entryX=0.46236559139784944;entryY=0.0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points"/>
+            <mxPoint x="0.0" y="-5.0" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" parent="1" edge="1" source="job" target="api" value="trigger&lt;br&gt;[internal API]" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.4583333333333333;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points"/>
+            <mxPoint x="0.0" y="-50.0" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" parent="1" edge="1" source="api" target="db" value="อ่าน/เขียน state + Audit + preference + งานแจ้งเตือน&lt;br&gt;[SQL transaction]" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=0.46236559139784944;exitY=1.0;entryX=0.5;entryY=0.0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points"/>
+            <mxPoint x="0.0" y="-10.0" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge7" parent="1" edge="1" source="api" target="sso" value="ตัวตน ↔ ผล&lt;br&gt;[วิธีเชื่อม TBD]" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.20833333333333334;entryX=0.0;entryY=0.625;exitDx=0;exitDy=0;entryDx=0;entryDy=0;dashed=1;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points"/>
+            <mxPoint x="0.0" y="-75.0" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge8" parent="1" edge="1" source="api" target="ext" value="ข้อความขั้นต่ำ / ผลส่ง&lt;br&gt;[วิธีเชื่อม TBD]&lt;br&gt;API ตรวจ opt-in ก่อนส่ง" style="html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;fontFamily=Tahoma;fontSize=22;labelBackgroundColor=#ffffff;exitX=1.0;exitY=0.6458333333333334;entryX=0.0;entryY=0.47368421052631576;exitDx=0;exitDy=0;entryDx=0;entryDy=0;dashed=1;">
+          <mxGeometry x="0" y="0" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="835"/>
+              <mxPoint x="1620" y="1070"/>
+            </Array>
+            <mxPoint x="220.0" y="-67.5" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="notes" parent="1" vertex="1" value="4 container เดิม · ไม่เพิ่ม Queue/Redis/API Gateway (DEC-FX-01) · กฎ/สิทธิ์/Audit ที่ API (D2)&lt;br&gt;Job เรียก API โดยไม่มีคนกด; ค่าเตือน OI-FX-02 และความถี่ DD-03 ยัง TBD; external จริงเป็น Overview" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontFamily=Tahoma;fontSize=22;strokeColor=none;fillColor=none;">
+          <mxGeometry x="42" y="1345" width="2116" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
